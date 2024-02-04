@@ -164,4 +164,4 @@ Also click the blue box and click the "Load" option to import the saved program.
 <br/>
 
 
->**The basic function demonstration is completed, you can check the other information in [here](https://download-elephantrobotics.oss-cn-shenzhen.aliyuncs.com/software/myblockly/README/myblockly%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6-en.pdf)**
+>**The basic function demonstration is completed, you can check the other information in [here](https://download-elephantrobotics.oss-cn-shenzhen.aliyuncs.com/software/myblockly/README/agv-myblockly%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E%E4%B9%A6-en.pdf)**
