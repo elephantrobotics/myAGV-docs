@@ -1,6 +1,6 @@
 # 2 Install driver
 
-> **Notice**: There is no need to download and install the driver in the myAGV2023 Pi system.
+> **Notice**: There is no need to download and install the driver in the myAGV Pi 2023 system.
 
 
 
