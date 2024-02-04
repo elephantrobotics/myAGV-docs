@@ -3,7 +3,7 @@
 
 ## How do I use myStudio to flash firmware
 
-- Open myStudio, select the machine as myAGV 2023 Pi, and wait for the USB port to be recognized successfully
+- Open myStudio, select the machine as `myAGV 2023 for Pi`, and wait for the USB port to be recognized successfully
 
   ![](../../../../resources/5-BasicApplication/5.2.2/img/agvpi/1.1.png)
 

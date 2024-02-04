@@ -6,7 +6,7 @@
 
 
 
-> **myAGV2023 pi system has already installed myStudio, no need to re-download it**
+> **myAGV  Pi 2023 system has already installed myStudio, no need to re-download it**
 
 
 

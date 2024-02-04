@@ -5,6 +5,8 @@
 * [3 User Notes](3-UserNotes/README.md)
 * [4 First Install and Use](4-FirstInstallAndUse/README.md)
 * [5 Basic Application](5-BasicApplication/README.md)
+  * [5.2.1-myblockly](5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/pi/README.md)
+  * [5.2.2-myStudio](5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/pi/README.md)
 * [6 SDK Development](6-SDKDevelopment/README.md)
   * [6.1-ApplicationBasePython](6-SDKDevelopment/6.1-ApplicationBasePython/README.md)
   * [6.2 ApplicationBaseROS1](6-SDKDevelopment/6.2-ApplicationBaseROS1/README.md)

@@ -6,7 +6,7 @@
 
 
 
-> **myAGV2023 Jetson Nano system has already installed myStudio, no need to re-download it**
+> **myAGV Jetson Nano 2023 system has already installed myStudio, no need to re-download it**
 
 
 
