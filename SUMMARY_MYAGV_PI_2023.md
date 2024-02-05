@@ -9,6 +9,8 @@
   * [5.2.2-myStudio](5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/pi/README.md)
 * [6 SDK Development](6-SDKDevelopment/README.md)
   * [6.1-ApplicationBasePython](6-SDKDevelopment/6.1-ApplicationBasePython/README.md)
+    * [6.1.1 Environment Building](6-SDKDevelopment/6.1-ApplicationBasePython/myagvPI/6.1.1-download.md)
+    * [6.1.2 Introduction to API](6-SDKDevelopment/6.1-ApplicationBasePython/myagvPI/6.1.2-API.md)
   * [6.2 ApplicationBaseROS1](6-SDKDevelopment/6.2-ApplicationBaseROS1/README.md)
     * [6.2.1 ROS Introduction](6-SDKDevelopment/6.2-ApplicationBaseROS1/myagvPI/6.2.1-ROS_Introduction.md)
     * [6.2.2 ROS Installation](6-SDKDevelopment/6.2-ApplicationBaseROS1/myagvPI/6.2.2-ROS_Installation.md)

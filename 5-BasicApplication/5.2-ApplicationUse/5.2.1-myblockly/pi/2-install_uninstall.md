@@ -148,4 +148,6 @@ myblockly has been uninstalled, click `Finish` to exit
 If you want to update myblockly, please go to the [official website](https://www.elephantrobotics.com/en/downloads/) to download the latest version.
 
 
+---
 
+ [← Previous Page](./1-myBlocklyFirstUse.md) | [Next Page →](./3-interface_description.md)

@@ -56,4 +56,6 @@ A: This error will appear in the old version of myBlockly because the versions o
 **Q6: The result of running the program shows child process exited with code 1**
 A: This is not an error. All programs return the binary number 1 after running. It means everything has been successfully run.
 
+---
 
+ [← Previous Page](./3-interface_description.md) | [Next Page →](./5-api.md)

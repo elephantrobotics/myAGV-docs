@@ -9,5 +9,7 @@ Before downloading myBlockly, you need to configure the Python environment and u
    How to use myStudio to burn the firmware，please refer to [myStudio](../../5.2.2-mystudio/pi/README.md)
 
 
+---
 
+  [← Previous Page](./README.md) | [Next Page →](./2-install_uninstall.md)
 
