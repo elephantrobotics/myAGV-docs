@@ -1,7 +1,11 @@
 # Elephant Gitbook
 
 * [1 Product Introduction](1-ProductIntroduction/README.md)
-* [2 Product Feature](2-ProductFreature/README.md)
+* [2 Product Feature](2-ProductFeature/README.md)
+  * [2.1 Machine Specification](2-ProductFeature/2.1-MachineSpecification.md)
+  * [2.2 Control Core Parameter](2-ProductFeature/2.2-ControlCoreParameter.md)
+  * [2.3 Mechanical Structure Parameter](2-ProductFeature/2.3-MechanicalStructureParameter.md)
+  * [2.4 Electrical Characteristic Parameter](2-ProductFeature/2.4-ElectricalCharacteristicParameter.md)
 * [3 User Notes](3-UserNotes/README.md)
 * [4 First Install and Use](4-FirstInstallAndUse/README.md)
 * [5 Basic Application](5-BasicApplication/README.md)
