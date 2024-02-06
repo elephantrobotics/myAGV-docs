@@ -27,7 +27,3 @@ The process of generating code into the text box is the process of the user drag
 ---
 
 [← Previous Section](../../../README.md) | [Next Page →](./1-myBlocklyFirstUse.md)<br>
-
-----
-
-[Next Chapter →](../../5.2.2-mystudio/pi/README.md)<br>

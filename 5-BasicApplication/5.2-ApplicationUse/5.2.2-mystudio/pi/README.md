@@ -32,7 +32,3 @@
 
 ----
  [← Previous Section](../../5.2.1-myblockly/pi/README.md) | [Next Page →](./1-setup.md)
-
-----
-
-[Next Chapter →](../../../../6-SDKDevelopment/README.md)<br>

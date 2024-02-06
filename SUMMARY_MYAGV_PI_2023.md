@@ -24,6 +24,7 @@
   * [5.2 ApplicationUse]()
     * [1 myblockly](5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/pi/README.md)
     * [2 myStudio](5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/pi/README.md)
+    * [3 AGV_UI](5-BasicApplication/5.2-ApplicationUse/5.2.3-myagv_UI/user_manual.md)
   * [5.3 FirmwareUse]()
     * [1 firmware update info](5-BasicApplication/5.3-FirmwareUse/myagvPI/5.3.1-FirmwareUpdateInfo.md)
     * [2 how to burn firmware](5-BasicApplication/5.3-FirmwareUse/myagvPI/5.3.2-HowToBurnFirmware.md)
