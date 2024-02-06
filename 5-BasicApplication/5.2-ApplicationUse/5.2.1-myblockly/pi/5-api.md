@@ -53,4 +53,4 @@
 
 ---
 
- [← Previous Page](./4-Q&A.md) | [Next Section →](../../../../6-SDKDevelopment/6.1-ApplicationBasePython/README.md)
+ [← Previous Page](./4-Q&A.md) | [Next Section →](../../5.2.2-mystudio/pi/README.md)
