@@ -10,7 +10,7 @@
   * [2.2 Control Core Parameter](2-ProductFeature/2.2-ControlCoreParameter.md)
   * [2.3 Mechanical Structure Parameter](2-ProductFeature/2.3-MechanicalStructureParameter.md)
   * [2.4 Electrical Characteristic Parameter](2-ProductFeature/2.4-ElectricalCharacteristicParameter.md)
-* [3 User Notes]()
+* [3 User Notes](3-UserNotes/README.md)
   * [3.1 Safety Instructions](3-UserNotes/myagvPI/3.1-SafetyInstruction.md)
   * [3.2 Transport and Storage](3-UserNotes/myagvPI/3.2-TransportandStorage.md)
   * [3.3 Maintenance and Care](3-UserNotes/myagvPI/3.3-MaintenanceandCare.md)

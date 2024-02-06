@@ -12,11 +12,11 @@ The myAGV PI 2023 encourages users to engage in extension development to fully e
 
 - **Programming Languages**: Supports Python, ROS1, among others, offering a diverse selection of programming options.
 
-![ros-equation](../../resources/1-ProductIntroduction/myagvPI/ros-equation.png)
+<img src="../../resources/1-ProductIntroduction/myagvPI/ros-equation.png " width="800" height="auto" />
 
 - **Hardware Interfaces**: Includes IO, USB, etc., facilitating the connection to a variety of sensors and actuators.<br>
 
-![GPIO-Pinout-Diagram-2.png](../../resources/1-ProductIntroduction/myagvPI/GPIO-Pinout-Diagram-2.png)
+<img src="../../resources/1-ProductIntroduction/myagvPI/GPIO-Pinout-Diagram-2.png " width="800" height="auto" />
 
 - **Software Libraries**: Provides a rich set of open-source libraries and APIs to streamline the development process.<br>
 
@@ -37,7 +37,7 @@ If you are interested in purchasing the device, please click the link below.
 -   Taobao: https://shop504055678.taobao.com
 -   shopify: https://shop.elephantrobotics.com/
 
-## Chapter Summary
+<!-- ## Chapter Summary
 
 Now that you have a grasp of the product's fundamental features and applications, let's delve deeper into obtaining more detailed information together. The next section of this manual will guide you to various sub-chapters, enabling you to gain a more comprehensive understanding of our product's design philosophy, target user demographics, recommended usage scenarios, as well as the supported accessories and tools. 
 
@@ -55,7 +55,7 @@ In this part, we will elucidate the product's optimal application methods in var
 [1.4-Accessories and Tools](../../myCobot320-docs/1-ProductIntroduction/1.4-AccessoriesTools/1.4-AccessoriesTools.md)
 Examine the supported accessories and tools to ensure that you can make the most of the product's full potential.
 
-Please click on the respective links based on your interests to access more detailed information. If you have any questions or require further assistance, please do not hesitate to contact our customer support team. We are committed to providing you with support and guidance. Thank you for choosing our product, and we look forward to delivering an outstanding user experience for you!<br>
+Please click on the respective links based on your interests to access more detailed information. If you have any questions or require further assistance, please do not hesitate to contact our customer support team. We are committed to providing you with support and guidance. Thank you for choosing our product, and we look forward to delivering an outstanding user experience for you!<br> -->
 
 ## Words of Thanks<br>
 

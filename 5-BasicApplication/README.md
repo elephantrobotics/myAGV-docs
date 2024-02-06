@@ -18,4 +18,4 @@ It is convenient for users to select different firmware and download it accordin
 For detailed information about the software, please refer to the description within this chapter.<br>
 
 ----
-[← Basic Application](../4-FirstInstallAndUse/README.md) | [myBlockly →](../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/pi/README.md)
+[← Previous Chapter](../4-FirstInstallAndUse/README.md) | [Next Chapter →](../6-SDKDevelopment/README.md)
