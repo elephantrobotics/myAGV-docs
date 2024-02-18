@@ -3,17 +3,17 @@
 
 ## How do I use myStudio to flash firmware
 
-- Open myStudio, select the machine as `myAGV 2023 for Pi`, and wait for the USB port to be recognized successfully
+- Open myStudio, select the machine as `myAGV 2023 for Pi`, and wait for the `USB Port` to be recognized successfully.
 
   ![](../../../../resources/5-BasicApplication/5.2.2/img/agvpi/1.1.png)
 
 
 
-- Click to LOGIN
+- Click to `LOGIN`
 
   ![](../../../../resources/5-BasicApplication/5.2.2/img/agvpi/1.2.png)
 
-- Click Basic to enter the Basic page
+- Click `Basic` to enter the Basic page
 
   ![](../../../../resources/5-BasicApplication/5.2.2/img/agvpi/1.3.png)
 
@@ -63,5 +63,5 @@
 - A：If the machine becomes uncontrollable after burning the firmware, you can try burning it multiple times. If it cannot be resolved, please contact after-sales service.
 
 ---
-[← Previous Page](./2-install_driver.md) | [Next Page →](./4-other_function.md)
+[← Previous Page](./1-setup.md) | [Next Page →](./4-other_function.md)
 

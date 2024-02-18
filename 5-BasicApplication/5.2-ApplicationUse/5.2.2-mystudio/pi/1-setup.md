@@ -6,15 +6,17 @@
 
 
 
-> **myAGV  Pi 2023 system has already installed myStudio, no need to re-download it**
+> **myAGV  Pi 2023 System  image has already installed myStudio**
+>
+> **So you no need to re-download it**
 
 
 
 
 
-download link:
+**Download Link**
 
-> In the myCobot320 system, you should download: Linux system version
+> In the myAGV  Pi 2023 System, you should download: Linux system version
 
 
 
@@ -187,4 +189,4 @@ myblockly has been uninstalled, click `Finish` to exit
 
 
 ---
-[← Previous Page](./README.md) | [Next Page →](./2-install_driver.md)
+[← Previous Page](./README.md) | [Next Page →](./3-flash_firmwares.md)
