@@ -4,7 +4,7 @@
   * [1.1 Design Philosophy](1-ProductIntroduction/myagvPI/1.1-DesignPhilosophy.md)
   * [1.2 Suitable Users](1-ProductIntroduction/myagvPI/1.2-SuitableUsers.md)
   * [1.3 Application Scenario](1-ProductIntroduction/myagvPI/1.3-ApplicationScenario.md)
-  * [1.4 Accessories Tools](1-ProductIntroduction/myagvPI/1.4-AccessoriesTools.md)
+  * [1.4 Accessories Tools](1-ProductIntroduction/myagvPI/1.4-AccessoriesTools/1.4-AccessoriesTools.md)
 * [2 Product Feature](2-ProductFeature/README.md)
   * [2.1 Machine Specification](2-ProductFeature/2.1-MachineSpecification.md)
   * [2.2 Control Core Parameter](2-ProductFeature/2.2-ControlCoreParameter.md)
