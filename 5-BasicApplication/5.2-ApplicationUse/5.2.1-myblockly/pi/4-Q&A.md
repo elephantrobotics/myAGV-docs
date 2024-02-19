@@ -1,4 +1,4 @@
-# 10 Q&A
+# Q&A
 
 This chapter lists common problems with using myBlockly to control robotic arms for reference.
 
@@ -41,7 +41,7 @@ A: You need to confirm some information before running the program:
    etc. is the serial number of your robotic arm.
 * Open the terminal on Mac system, enter cd/dev/ and press Enter, then run ls -al tty to find it, such as /dev/tty.usbserial-10.
 
-(2) Please confirm that the baud rate is correct. `myCobot 320 M5` baud rate is `115200`.
+(2) Please confirm that the baud rate is correct. `myAGV Pi 2023 ` baud rate is `115200`.
 
 (3) Please confirm that the model, serial port number and baud rate in the blue box are consistent with those in the small toolbar on the right, and match the robotic arm.
 
@@ -56,4 +56,6 @@ A: This error will appear in the old version of myBlockly because the versions o
 **Q6: The result of running the program shows child process exited with code 1**
 A: This is not an error. All programs return the binary number 1 after running. It means everything has been successfully run.
 
+---
 
+ [← Previous Page](./3-interface_description.md) | [Next Page →](./5-api.md)

@@ -1,6 +1,6 @@
-# 2 Install driver
+# Install driver
 
-> **Notice**: There is no need to download and install the driver in the myAGV2023 Pi system.
+> **Notice**: There is no need to download and install the driver in the myAGV Pi 2023 system.
 
 
 
@@ -52,3 +52,5 @@ For Mac OS, before installing make sure system "Preferences->Security & Privacy-
 
 ![CP210C](../../../../resources/5-BasicApplication/5.2.2/img/4.1.1.3-CP210X.jpg)
 
+---
+[← Previous Page](./1-setup.md) | [Next Page →](./3-flash_firmwares.md)

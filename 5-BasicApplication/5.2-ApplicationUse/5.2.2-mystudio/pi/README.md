@@ -6,7 +6,7 @@
 
 ## 1 myStudio design original intention
 
-- myStudio is a one-stop platform for using robots such as myRobot/myCobot.
+- myStudio is a one-stop platform for using for robots.
 
 - It is convenient for users to select different firmware and download it according to their own usage scenarios, while learning relevant teaching materials and browsing tutorial videos online.
 
@@ -30,3 +30,5 @@
 - Provide robot usage tutorials, such as user manuals, video tutorials, Q&A, etc.
 - Information on maintenance and repairs
 
+----
+ [← Previous Section](../../5.2.1-myblockly/pi/README.md) | [Next Page →](./1-setup.md)
