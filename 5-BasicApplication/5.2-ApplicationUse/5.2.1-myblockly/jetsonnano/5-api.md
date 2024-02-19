@@ -40,11 +40,11 @@
 
 - Go Ahead Block: Run this block to control the machine to move forward at a given speed,with a default motion time of 5 seconds.
 
-- Retreat Block: Run this block to control the machine to move backward at a given speed.with a default motion time of 5 seconds.
+- Retreat Block: Run this block to control the machine to move backward at a given speed,with a default motion time of 5 seconds.
 
-- Pan Left Block: Run this block to control the machine to move left at a given speed.with a default motion time of 5 seconds.
+- Pan Left Block: Run this block to control the machine to move left at a given speed,with a default motion time of 5 seconds.
 
-- Pan Right Block: Run this block to control the machine to move to the right at a given speed.with a default motion time of 5 seconds.
+- Pan Right Block: Run this block to control the machine to move to the right at a given speed,with a default motion time of 5 seconds.
 
 - Counterclockwise Rotation: Run this block to control the machine to rotate counterclockwise at the given speed,with a default motion time of 5 seconds.
 

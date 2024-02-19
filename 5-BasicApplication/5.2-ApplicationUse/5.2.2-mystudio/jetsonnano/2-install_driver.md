@@ -1,4 +1,4 @@
-# 2 Install driver
+# Install driver
 
 > **Notice**: There is no need to download and install the driver in the myAGV Jetson Nano 2023 system.
 
