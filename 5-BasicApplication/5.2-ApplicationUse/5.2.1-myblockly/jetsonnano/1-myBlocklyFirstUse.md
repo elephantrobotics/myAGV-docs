@@ -1,8 +1,10 @@
-# 1 Preparations before using myBlockl
+# Preparations before using myBlockl
 
 Before downloading myBlockly, you need to configure the Python environment and use myStudio to burn the firmware. Please refer to the following operation methods for details.
 
-1. Environment configuration. Before using myBlockly, please make sure that the Python environment has been configured on your computer (for details on Python download, installation and environment configuration, please refer to [install python](../../../../10-ApplicationBasePython/10.1_320_PI-ApplicationPython/1_download.md)
+1. Environment configuration. Before using myBlockly, please make sure that the Python environment has been configured on your computer
+
+   > **The Jetson Nano version system comes with a built-in Python development environment, so you don't need to build and manage it.**
 
 2. Firmware burning.
 
