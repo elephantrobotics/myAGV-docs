@@ -44,7 +44,7 @@ users to interact through simple touch gestures. It can be integrated for use wi
 
 <img src="../../../../resources/1-ProductIntroduction/myagvPI/1.4.1-TouchScreen/TouchScreen_7.png" width="800" height=“auto” />
 
-5.Connect the HDMI cable and power cable to myAGV
+5.Connect the HDMI cable and Micro USB2 to myAGV
 
 <img src="../../../../resources/1-ProductIntroduction/myagvPI/1.4.1-TouchScreen/TouchScreen_8.png" width="800" height=“auto” />
 
