@@ -273,4 +273,4 @@ All the above operations will be displayed in the log area. Click the "Clear But
 - When the radar button is turned on, the green light turns on; when the radar button is turned off, the light turns off and turns gray.
 
 ---
-[← Previous Page](./3-flash_firmwares.md) | [Next Chapter →](../../5.3-FirmwareUse/myagvPI/5.3.1-FirmwareUpdateInfo.md)
+[← Previous Page](../5.2.2-mystudio/pi/4-other_function.md) | [Next Chapter →](../../5.3-FirmwareUse/myagvPI/5.3.1-FirmwareUpdateInfo.md)

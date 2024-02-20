@@ -9,7 +9,7 @@
 
 Before using the system, you need to master basic Linux knowledge, such as file management and command line operations. In terms of network configuration, understand remote connection methods (such as SSH) to access the system. When flashing the image, select the right files and tools, and set the parameters correctly to ensure the normal operation of the system.
 
-- [Customized robot operating system](../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/pi/README.md)<br>
+- [Customized robot operating system](../5-BasicApplication/5.1-SystemInstructionManual/myagvPI/5.1-SystemInstructionManual.md)<br>
 The myAGV 2023 system not only has built-in environments such as ROS and Python, but is also equipped with robot development software such as VSCode, VNC, and SSH. 
 No complicated configuration required. It also provides automatic update software and supports one-click updates for the corresponding development environment.
 

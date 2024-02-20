@@ -26,4 +26,4 @@ The process of generating code into the text box is the process of the user drag
 
 ---
 
-[← Previous Section](../../../README.md) | [Next Page →](./1-myBlocklyFirstUse.md)<br>
+[← Previous Section](../../../5.1-SystemInstructionManual/myagvPI/5.1-SystemInstructionManual.md) | [Next Page →](./1-myBlocklyFirstUse.md)<br>
