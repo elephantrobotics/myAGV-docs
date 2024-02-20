@@ -4,8 +4,6 @@
 
 This section is crucial for every user of this product and must be read carefully. It includes essential information on product use, transportation, storage, and maintenance to ensure safety and efficiency during operation. Additionally, it outlines liability for product failure or damage resulting from non-compliance with these guidelines. The User Notice is divided into subsections, each providing detailed guidance on different topics:
 
-## 
-
 - [Safety Information](myagvPI/3.1-SafetyInstruction.md)    
     Includes liability, safety warning signs, general safety rules, personal safety, and emergency response.
 
