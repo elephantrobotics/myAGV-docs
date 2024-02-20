@@ -15,4 +15,4 @@ The interpreter of **Python** is easily extensible, and new functions and data t
 
 ---
 
-[← Previous Chapter](../../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/pi/1-myBlocklyFirstUse.md) | [Next Page →](myagvPI/6.1.1-download.md)
+[← Previous Chapter](../../6-SDKDevelopment/README.md) | [Next Page →](myagvPI/6.1.1-download.md)

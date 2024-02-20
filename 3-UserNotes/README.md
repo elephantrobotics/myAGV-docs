@@ -4,16 +4,16 @@
 
 This section is crucial for every user of this product and must be read carefully. It includes essential information on product use, transportation, storage, and maintenance to ensure safety and efficiency during operation. Additionally, it outlines liability for product failure or damage resulting from non-compliance with these guidelines. The User Notice is divided into subsections, each providing detailed guidance on different topics:
 
-- [Safety Information](myagvPI/3.1-SafetyInstruction.md)    
+[3.1-Safety Information](myagvPI/3.1-SafetyInstruction.md)    
     Includes liability, safety warning signs, general safety rules, personal safety, and emergency response.
 
-- [Transportation and Storage](myagvPI/3.2-TransportandStorage.md)    
+[3.2-Transportation and Storage](myagvPI/3.2-TransportandStorage.md)    
     Describes packaging, transport, and long-term storage requirements, along with liability.
 
-- [Maintenance and Care](myagvPI/3.3-MaintenanceandCare.md)  
+[3.3-Maintenance and Care](myagvPI/3.3-MaintenanceandCare.md)  
     Offers guidance on routine maintenance to extend product lifespan.
 
-- [FAQs and Solutions](myagvPI/3.4-FAQs.md)    
+[3.4-FAQs and Solutions](myagvPI/3.4-FAQs.md)    
     Provides a navigable guide for quickly resolving common issues.
 
 By thoroughly reading this section, users will better understand how to use the product safely and efficiently, maximizing performance and lifespan.
