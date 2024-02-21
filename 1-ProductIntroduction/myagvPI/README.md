@@ -52,7 +52,7 @@ Understand which user groups are most suitable for using this product and how it
 [1.3-Application Scenario](1.3-ApplicationScenario.md)
 In this part, we will elucidate the product's optimal application methods in various scenarios, enabling you to fully harness its functionality.
 
-[1.4-Accessories and Tools](1.4-AccessoriesTools.md)
+[1.4-Accessories and Tools](1.4-AccessoriesTools/1.4-AccessoriesTools.md)
 Examine the supported accessories and tools to ensure that you can make the most of the product's full potential.
 
 Please click on the respective links based on your interests to access more detailed information. If you have any questions or require further assistance, please do not hesitate to contact our customer support team. We are committed to providing you with support and guidance. Thank you for choosing our product, and we look forward to delivering an outstanding user experience for you!<br>

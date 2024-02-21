@@ -31,10 +31,10 @@ For the myAGV series of products, we have introduced software specifically desig
 
 To ensure your myagv is always in top condition, we are constantly working to improve and update the firmware. Firmware updates are one of the critical steps to ensure device functionality, performance and security. By updating the firmware in a timely manner, we can fix known problems, improve functions, improve performance, and ensure the stability and security of myagv.
 
-- [Firmware Update Info]()<br>
+- [Firmware Update Info](../5-BasicApplication/5.3-FirmwareUse/myagvPI/5.3.1-FirmwareUpdateInfo.md)<br>
 Firmware table information describing performance improvements or advantages after firmware changes.
 
-- [Burn Firmware Operation]()<br>
+- [Burn Firmware Operation](../5-BasicApplication/5.3-FirmwareUse/myagvPI/5.3.2-HowToBurnFirmware.md)<br>
 This chapter describes how to use mystudio software to burn firmware code for myagv
 
 ----
