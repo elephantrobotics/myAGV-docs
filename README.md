@@ -6,6 +6,14 @@ Welcome to the official documentation repository for the myAGV Developer Guide! 
 
 Before you begin, please make sure you are familiar with basic Git operations and Markdown syntax. This will help you contribute and retrieve information more efficiently.
 
+## Document jump link
+
+SUMMARY_MYAGV_JN_2023_EN
+SUMMARY_MYAGV_JN_2023_CN
+
+[SUMMARY_MYAGV_PI_2023_EN](SUMMARY_MYAGV_PI_2023_EN.md)
+SUMMARY_MYAGV_PI_2023_CN
+
 ## How to Report Issues
 
 If you encounter any problems while using the guide or developing with the myAGV, please follow these steps:
