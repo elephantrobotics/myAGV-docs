@@ -1,6 +1,6 @@
 # myAGV Developer Guide
 
-Welcome to the official documentation repository for the myAGV Developer Guide! Our aim is to provide a comprehensive and understandable guide to help developers program and control the myAGV robotic arm using various programming languages and development environments.
+Welcome to the official documentation repository for the myAGV Developer Guide! Our aim is to provide a comprehensive and understandable guide to help developers program and control the myAGV using various programming languages and development environments.
 
 ## Getting Started
 
