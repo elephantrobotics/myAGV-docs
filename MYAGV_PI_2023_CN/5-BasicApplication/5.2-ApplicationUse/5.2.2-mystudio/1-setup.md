@@ -116,4 +116,4 @@ myblockly 已卸载，单击 `Finish` 退出
 
 ---
 
-[← 上一页](./README.md) | [下一页 →](./3-flash_firmwares.md)
+[← 上一页](./README.md) | [下一页 →](./2-install_driver.md)

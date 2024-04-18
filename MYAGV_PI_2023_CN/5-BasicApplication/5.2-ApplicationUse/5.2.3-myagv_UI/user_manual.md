@@ -190,82 +190,79 @@
 ![Testing Function](../../../resources/5-BasicApplication/5.2/5.2.3/testing_en.png "Testing Function")
 **限制：在测试期间，不能使用雷达、基本控制和地图导航模块。**
 
-### 6.1 电机
+### 6.1 电机 Motor
 
 **功能：** 检查电机是否能正常运行
 **运行：**
 
-- Select the 'Motor' from the drop-down box and click to start testing
-- In this process, it is recommended to place myAgv on the ground for testing; during the process, it will go forward and backward for 4 seconds each, translate left and right for 4 seconds each, and rotate left and right for 8 seconds each.
-- After all the above steps are executed, the detection is completed.
+- 从下拉框中选择 'Motor'，点击开始测试
+- 在此过程中，建议将 myAgv 放在地面上进行测试；在此过程中，它将前进和后退各 4 秒钟，左右平移各 4 秒钟，左右旋转各 8 秒钟。
+- 执行上述所有步骤后，检测就完成了。
 
-### 6.2 LED light
+### 6.2 LED 灯
 
-**Functions：** Check whether the Led light can operate normally  
-**Running：**
+**功能：** 检查 LED 灯是否能正常工作  
+**运行：**
 
-- Select the 'LED' from the drop-down box and click to start testing
-- Switch the red, orange, yellow, green, blue, and purple colors in sequence. If the color switching can be observed normally, the LED light is used normally.
-- The display time of each color is 1s. After all colors are displayed normally, the detection is completed.
+- 从下拉框中选择 "LED"，然后点击开始测试
+- 依次切换红色、橙色、黄色、绿色、蓝色和紫色。如果可以正常观察到颜色切换，则说明 LED 灯使用正常。
+- 每种颜色的显示时间为 1 秒。所有颜色正常显示后，检测结束。
 
-### 6.3 3D Camera
+### 6.3 3D 摄像头
 
-**Functions：** Check whether the 3D camera can operate normally  
-**Running：**
+**功能：** 检查 3D 摄像机是否能正常工作  
+**运行：**
 
-- Select the '3D Camera' from the drop-down box and click to start testing
-- A new window pops up to display the image captured by the camera; if the image can be displayed, the camera is operating normally.
-- The screen is displayed for about 5 seconds, and then the window screen is automatically closed. Testing completed.
+- 从下拉框中选择 "3D Camera"，然后单击开始测试
+- 此时会弹出一个新窗口，显示摄像机捕捉到的图像；如果图像可以显示，则说明摄像机运行正常。
+- 屏幕显示约 5 秒钟，然后窗口屏幕自动关闭。测试完成。
 
-### 6.4 2D Camera
+### 6.4 2D 摄像机
 
-**Functions：** Check whether the 2D camera can operate normally  
-**Running：**
+**功能：** 检查 2D 摄像机是否能正常工作  
+**运行：**
 
-- Select the '2D Camera' from the drop-down box and click to start testing
-- A new window pops up to display the image captured by the camera; if the image can be displayed, the camera is operating normally.
-- The screen is displayed for about 5 seconds, and then the window screen is automatically closed. Testing completed.
+- 从下拉框中选择 "2D Camera"，然后点击开始测试
+- 此时会弹出一个新窗口，显示摄像机拍摄的图像；如果图像可以显示，则说明摄像机运行正常。
+- 屏幕显示约 5 秒钟，然后窗口屏幕自动关闭。测试完成。
 
-### 6.5 Pump
+### 6.5 吸泵 Pump
 
-**Functions：** Check whether the pump can operate normally  
-**Running：**
+**功能：** 检查泵是否能正常运行  
+**运行：**
 
-- Select the 'Pump' from the drop-down box and click to start testing
-- The suction pump is turned on and turns off automatically after running for 4 seconds; at this time the detection is completed
+- 从下拉框中选择 "Pump"，然后点击开始测试
+- 吸入泵开启，运行 4 秒后自动关闭；此时检测完成
 
-### 6.6 Restore
+### 6.6 恢复 Restore
 
 ![Restore Function](../../../resources/5-BasicApplication/5.2/5.2.3/restore_en.png "Restore FUnction")  
-**Functions：** Return the stalled motor to normal operation.
-**Running：** Clicked the button as the picture shows above.
+**功能：** 使停转的电机恢复正常运行。  
+**运行：** 点击如上图所示的按钮。
 
-- Select the 'Pump' from the drop-down box and click to start testing
-- The suction pump is turned on and turns off automatically after running for 4 seconds; at this time the detection is completed
-
-## 7. Log Area
+## 7. 日志区 Log Area
 
 ![Log Area](../../../resources/5-BasicApplication/5.2/5.2.3/log_area_en.png "Log Area")
 
-All the above operations will be displayed in the log area. Click the "Clear Button" on the right side of the icon to clear the current content.
+所有上述操作都将显示在日志区域。点击图标右侧的 "清除按钮 "可清除当前内容。
 
-## 8. Status Detection
+## 8. 状态检测 Status Detection
 
 ![Status Detecting](../../../resources/5-BasicApplication/5.2/5.2.3/status_add_en.png "Status Information")
 
-**1、 IP Address:** Show current IP address  
-**2、 Battery Information:** Display the currently connected battery information
+**1. IP Address:** 显示当前 IP 地址
+**2. Battery Information:** 显示当前连接的电池信息
 
-- When connected, the green light and the corresponding power and voltage are displayed; when not connected, the display is gray and the value is 0.
+- 连接时，绿灯亮，显示相应的功率和电压；未连接时，显示屏呈灰色，数值为 0。
 
-**3、 Motor Current:** Shows whether there is current flowing through and the electricity value
+**3. Motor Current:** 显示是否有电流流过以及电流值
 
-- When the motor is in motion and there is current flowing through it, the motor will light up green and the page will display the current value; otherwise it will be gray.
+- 当电机运行且有电流流过时，电机将亮起绿灯，页面将显示电流值；否则将显示灰色。
 
-**4、 Radar Detection:** Shows whether radar is on
+**4. Radar Detection:** 显示雷达是否开启
 
-- When the radar button is turned on, the green light turns on; when the radar button is turned off, the light turns off and turns gray.
+- 打开雷达按钮时，绿灯亮起；关闭雷达按钮时，绿灯熄灭并变成灰色。
 
 ---
 
-[← Previous Page](../../README.md) | [Next Chapter →](../../5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.md)
+[← 基础功能使用页](../../README.md#52-应用用途) | [下一章 →](../../5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.md)
