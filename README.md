@@ -14,7 +14,7 @@ SUMMARY_MYAGV_JN_2023_CN
 
 [SUMMARY_MYAGV_PI_2023_EN](SUMMARY_MYAGV_PI_2023_EN.md)
 
-SUMMARY_MYAGV_PI_2023_CN
+[SUMMARY_MYAGV_PI_2023_CN](SUMMARY_MYAGV_PI_2023_CN.md)
 
 ## How to Report Issues
 
@@ -43,7 +43,7 @@ We warmly welcome and encourage community members to improve documentation or ad
 
 ## Contribution Guidelines
 
-We aim to maintain an open and welcoming environment, allowing everyone to contribute comfortably. Since we currently do not have a Code of Conduct, we ask you to simply be professional and respectful in your interactions within the project. 
+We aim to maintain an open and welcoming environment, allowing everyone to contribute comfortably. Since we currently do not have a Code of Conduct, we ask you to simply be professional and respectful in your interactions within the project.
 
 ## Adding a Code of Conduct
 
