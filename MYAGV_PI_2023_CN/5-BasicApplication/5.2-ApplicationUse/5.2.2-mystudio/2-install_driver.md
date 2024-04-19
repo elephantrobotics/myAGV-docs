@@ -34,11 +34,11 @@
 
 ![frimware_check](../../../resources/5-BasicApplication/5.2/5.2.2/img/4.1.1.3-firmware_check.gif)
 
-- 如果**端口（COM 和 LPT）**显示**USB-Enhanced-SERIAL CH9102**，则为**CP34X 芯片**。
+- 如果 **端口（COM 和 LPT）** 显示 **USB-Enhanced-SERIAL CH9102**，则为**CP34X 芯片**。
 
 ![CP34X](../../../resources/5-BasicApplication/5.2/5.2.2/img/4.1.1.3-CP34X.jpg)
 
-- 如果**端口（COM 和 LPT）**显示**Silicon Labs CP210x USB 至 UART 桥**，则为**CP210X 芯片**。
+- 如果 **端口（COM 和 LPT）** 显示 **Silicon Labs CP210x USB to UART Bridge**，则为**CP210X 芯片**。
 
 ![CP210C](../../../resources/5-BasicApplication/5.2/5.2.2/img/4.1.1.3-CP210X.jpg)
 

@@ -39,4 +39,4 @@
 
 ---
 
-[← 上一章](../4-FirstInstallAndUse/README.md) | [下一章 →](../6-SDKDevelopment/README.md)
+[← 上一章](../4-FirstInstallAndUse/README.md) | [下一章 →](../6-ROS/6.2.1-ROS_Introduction.md)

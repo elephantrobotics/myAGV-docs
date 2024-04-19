@@ -20,6 +20,14 @@
 
 - Linux arm64
 
+**跳转到各部分：**
+
+- [首次使用 mblockly](1-myBlocklyFirstUse.md)
+- [下载和卸载](2-install_uninstall.md)
+- [接口描述](3-interface_description.md)
+- [常见问题解答](4-Q&A.md)
+- [API](5-api.md)
+
 ---
 
 [← 基础功能使用页](../../README.md#52-应用用途) | [下一页 →](./1-myBlocklyFirstUse.md)

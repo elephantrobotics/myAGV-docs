@@ -1,0 +1,1206 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>6 ROS 开发 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="6.2.2-ROS_Installation.html" />
+    
+    
+    <link rel="prev" href="../5-BasicApplication/5.3-FirmwareUse/5.3.2-HowToBurnFirmware.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../1-ProductIntroduction/">
+            
+                <a href="../1-ProductIntroduction/">
+            
+                    
+                    1 产品介绍
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1-ProductIntroduction/1.1-DesignPhilosophy.html">
+            
+                <a href="../1-ProductIntroduction/1.1-DesignPhilosophy.html">
+            
+                    
+                    1.1 设计理念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../1-ProductIntroduction/1.2-SuitableUsers.html">
+            
+                <a href="../1-ProductIntroduction/1.2-SuitableUsers.html">
+            
+                    
+                    1.2 适用人群
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../1-ProductIntroduction/1.3-ApplicationScenario.html">
+            
+                <a href="../1-ProductIntroduction/1.3-ApplicationScenario.html">
+            
+                    
+                    1.3 应用场景
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../1-ProductIntroduction/1.4-AccessoriesTools/1.4-AccessoriesTools.html">
+            
+                <a href="../1-ProductIntroduction/1.4-AccessoriesTools/1.4-AccessoriesTools.html">
+            
+                    
+                    1.4 周边配件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.4.1" data-path="../1-ProductIntroduction/1.4-AccessoriesTools/1.4.1-IPS/1-IPSTouchScreen.html">
+            
+                <a href="../1-ProductIntroduction/1.4-AccessoriesTools/1.4.1-IPS/1-IPSTouchScreen.html">
+            
+                    
+                    1.4.1 屏幕
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4.2" data-path="../1-ProductIntroduction/1.4-AccessoriesTools/1.4.2-BackupBattery/1-BackupBattery.html">
+            
+                <a href="../1-ProductIntroduction/1.4-AccessoriesTools/1.4.2-BackupBattery/1-BackupBattery.html">
+            
+                    
+                    1.4.2 备用电池
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../2-ProductFeature/">
+            
+                <a href="../2-ProductFeature/">
+            
+                    
+                    2 产品特性
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../2-ProductFeature/2.1-MachineSpecification.html">
+            
+                <a href="../2-ProductFeature/2.1-MachineSpecification.html">
+            
+                    
+                    2.1 机器规格参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../2-ProductFeature/2.2-ControlCoreParameter.html">
+            
+                <a href="../2-ProductFeature/2.2-ControlCoreParameter.html">
+            
+                    
+                    2.2 控制核心参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../2-ProductFeature/2.3-MechanicalStructureParameter.html">
+            
+                <a href="../2-ProductFeature/2.3-MechanicalStructureParameter.html">
+            
+                    
+                    2.3 机械结构参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../2-ProductFeature/2.4-ElectricalCharacteristicParameter.html">
+            
+                <a href="../2-ProductFeature/2.4-ElectricalCharacteristicParameter.html">
+            
+                    
+                    2.4 电气特性参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../3-UserNotes/">
+            
+                <a href="../3-UserNotes/">
+            
+                    
+                    3 用户须知
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../3-UserNotes/3.1-SafetyInstruction.html">
+            
+                <a href="../3-UserNotes/3.1-SafetyInstruction.html">
+            
+                    
+                    3.1 安全须知
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../3-UserNotes/3.2-TransportandStorage.html">
+            
+                <a href="../3-UserNotes/3.2-TransportandStorage.html">
+            
+                    
+                    3.2 运输和存储
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../3-UserNotes/3.3-MaintenanceandCare.html">
+            
+                <a href="../3-UserNotes/3.3-MaintenanceandCare.html">
+            
+                    
+                    3.3 维护和保养
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../3-UserNotes/3.4-FAQs.html">
+            
+                <a href="../3-UserNotes/3.4-FAQs.html">
+            
+                    
+                    3.4 常见问题解决
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../4-FirstInstallAndUse/">
+            
+                <a href="../4-FirstInstallAndUse/">
+            
+                    
+                    4 首次安装使用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../4-FirstInstallAndUse/4.1-ProductStandardList.html">
+            
+                <a href="../4-FirstInstallAndUse/4.1-ProductStandardList.html">
+            
+                    
+                    4.1 产品标准清单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../4-FirstInstallAndUse/4.2-ProductUnboxingGuide.html">
+            
+                <a href="../4-FirstInstallAndUse/4.2-ProductUnboxingGuide.html">
+            
+                    
+                    4.2 产品开箱指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../4-FirstInstallAndUse/4.3-PowerOnDetectionGuide.html">
+            
+                <a href="../4-FirstInstallAndUse/4.3-PowerOnDetectionGuide.html">
+            
+                    
+                    4.3 开机检测指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../5-BasicApplication/">
+            
+                <a href="../5-BasicApplication/">
+            
+                    
+                    5 基础功能使用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../5-BasicApplication/5.1-SystemInstructionManual.html">
+            
+                <a href="../5-BasicApplication/5.1-SystemInstructionManual.html">
+            
+                    
+                    5.1 系统使用说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../5-BasicApplication/">
+            
+                <a href="../5-BasicApplication/#52-应用用途">
+            
+                    
+                    5.2 应用用途
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/">
+            
+                    
+                    1 myblockly
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.1.1" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/1-myBlocklyFirstUse.html">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/1-myBlocklyFirstUse.html">
+            
+                    
+                    首次使用 myblockly
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.2" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/2-install_uninstall.html">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/2-install_uninstall.html">
+            
+                    
+                    下载和卸载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.3" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/3-interface_description.html">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/3-interface_description.html">
+            
+                    
+                    接口描述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.4" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/4-Q&A.html">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/4-Q&A.html">
+            
+                    
+                    常见问题解答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.1.5" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/5-api.html">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/5-api.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/">
+            
+                    
+                    2 myStudio
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.2.2.1" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/1-setup.html">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/1-setup.html">
+            
+                    
+                    设置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2.2" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/2-install_driver.html">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/2-install_driver.html">
+            
+                    
+                    安装驱动程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2.3" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/3-flash_firmwares.html">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/3-flash_firmwares.html">
+            
+                    
+                    闪存固件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.2.4" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/4-other_function.html">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/4-other_function.html">
+            
+                    
+                    其他功能
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2.3" data-path="../5-BasicApplication/5.2-ApplicationUse/5.2.3-myagv_UI/user_manual.html">
+            
+                <a href="../5-BasicApplication/5.2-ApplicationUse/5.2.3-myagv_UI/user_manual.html">
+            
+                    
+                    3 AGV_UI
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../5-BasicApplication/5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.html">
+            
+                <a href="../5-BasicApplication/5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.html">
+            
+                    
+                    5.3 固件使用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.3.1" data-path="../5-BasicApplication/5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.html">
+            
+                <a href="../5-BasicApplication/5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.html">
+            
+                    
+                    1 固件更新信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3.2" data-path="../5-BasicApplication/5.3-FirmwareUse/5.3.2-HowToBurnFirmware.html">
+            
+                <a href="../5-BasicApplication/5.3-FirmwareUse/5.3.2-HowToBurnFirmware.html">
+            
+                    
+                    2 如何刻录固件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="6.2.1-ROS_Introduction.html">
+            
+                <a href="6.2.1-ROS_Introduction.html">
+            
+                    
+                    6 ROS 开发
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="6.2.2-ROS_Installation.html">
+            
+                <a href="6.2.2-ROS_Installation.html">
+            
+                    
+                    6.1 安装和环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="6.2.3-Using_Common_ROS_Tools.html">
+            
+                <a href="6.2.3-Using_Common_ROS_Tools.html">
+            
+                    
+                    6.2 ROS 基础工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="6.2.4-Basic_Control_Based_on_ROS.html">
+            
+                <a href="6.2.4-Basic_Control_Based_on_ROS.html">
+            
+                    
+                    6.3 ROS 基本控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="6.2.5-Real-time_Mapping_with_Gmapping.html">
+            
+                <a href="6.2.5-Real-time_Mapping_with_Gmapping.html">
+            
+                    
+                    6.4 雷达建图 - Gmapping
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="6.2.6-Real-time_Mapping_with_Cartographer.html">
+            
+                <a href="6.2.6-Real-time_Mapping_with_Cartographer.html">
+            
+                    
+                    6.5 雷达建图 - Cartographer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="6.2.7-Navigation-Map_Navigation.html">
+            
+                <a href="6.2.7-Navigation-Map_Navigation.html">
+            
+                    
+                    6.6 地图导航
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../7-SDKDevelopment/">
+            
+                <a href="../7-SDKDevelopment/">
+            
+                    
+                    7 SDK 开发指南
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../7-SDKDevelopment/7.1-ApplicationBasePython/">
+            
+                <a href="../7-SDKDevelopment/7.1-ApplicationBasePython/">
+            
+                    
+                    7.1-基于 Python 开发使用
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1.1" data-path="../7-SDKDevelopment/7.1-ApplicationBasePython/7.1.1-download.html">
+            
+                <a href="../7-SDKDevelopment/7.1-ApplicationBasePython/7.1.1-download.html">
+            
+                    
+                    1 环境配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.1.2" data-path="../7-SDKDevelopment/7.1-ApplicationBasePython/7.1.2-API.html">
+            
+                <a href="../7-SDKDevelopment/7.1-ApplicationBasePython/7.1.2-API.html">
+            
+                    
+                    2 API 使用说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../8-ExamplesRobotsUsing/">
+            
+                <a href="../8-ExamplesRobotsUsing/">
+            
+                    
+                    8 实用场景案例
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../8-ExamplesRobotsUsing/">
+            
+                <a href="../8-ExamplesRobotsUsing/">
+            
+                    
+                    8.1 复合机器人
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1.1" data-path="../8-ExamplesRobotsUsing/8.1-InstallationInstructions.html">
+            
+                <a href="../8-ExamplesRobotsUsing/8.1-InstallationInstructions.html">
+            
+                    
+                    1 安装说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.1.2" data-path="../8-ExamplesRobotsUsing/8.2-CommunicationsControl.html">
+            
+                <a href="../8-ExamplesRobotsUsing/8.2-CommunicationsControl.html">
+            
+                    
+                    2 通信控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../9-FilesDownload/">
+            
+                <a href="../9-FilesDownload/">
+            
+                    
+                    9 相关资料下载
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../9-FilesDownload/9.1-GitbookDownload.html">
+            
+                <a href="../9-FilesDownload/9.1-GitbookDownload.html">
+            
+                    
+                    9.1 Gitbook 下载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../9-FilesDownload/9.2-productBrochure.html">
+            
+                <a href="../9-FilesDownload/9.2-productBrochure.html">
+            
+                    
+                    9.2 产品图纸
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../9-FilesDownload/9.3-softwareSource.html">
+            
+                <a href="../9-FilesDownload/9.3-softwareSource.html">
+            
+                    
+                    9.3 软件资料及源码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="../9-FilesDownload/9.4-SystemInformation/">
+            
+                <a href="../9-FilesDownload/9.4-SystemInformation/">
+            
+                    
+                    9.4 系统资料
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.4.1" data-path="../9-FilesDownload/9.4-SystemInformation/9.4.1-System_Image.html">
+            
+                <a href="../9-FilesDownload/9.4-SystemInformation/9.4.1-System_Image.html">
+            
+                    
+                    1 系统镜像
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4.2" data-path="../9-FilesDownload/9.4-SystemInformation/9.4.2-Image_Burning.html">
+            
+                <a href="../9-FilesDownload/9.4-SystemInformation/9.4.2-Image_Burning.html">
+            
+                    
+                    2 镜像烧录
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="../9-FilesDownload/9.5-PublicityMaterial.html">
+            
+                <a href="../9-FilesDownload/9.5-PublicityMaterial.html">
+            
+                    
+                    9.5 宣传资料
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../10-AboutUs/">
+            
+                <a href="../10-AboutUs/">
+            
+                    
+                    10 关于我们
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../10-AboutUs/10.1_company.html">
+            
+                <a href="../10-AboutUs/10.1_company.html">
+            
+                    
+                    10.1 大象机器人
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../10-AboutUs/10.2_contact.html">
+            
+                <a href="../10-AboutUs/10.2_contact.html">
+            
+                    
+                    10.2 联系我们
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >6 ROS 开发</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="ros-&#x7B80;&#x4ECB;">ROS &#x7B80;&#x4ECB;</h1>
+<ul>
+<li>&#x4EC0;&#x4E48;&#x662F; ROS&#xFF1F;</li>
+</ul>
+<p>ROS wiki&#xFF1A; <a href="http://wiki.ros.org/" target="_blank">http://wiki.ros.org/ </a></p>
+<p>ROS &#x6559;&#x7A0B;&#xFF1A;<a href="http://wiki.ros.org/ROS/Tutorials" target="_blank">http://wiki.ros.org/ROS/Tutorials </a></p>
+<p>ROS &#x5B89;&#x88C5;&#xFF1A;<a href="http://wiki.ros.org/noetic/Installation/Ubuntu" target="_blank">http://wiki.ros.org/noetic/Installation/Ubuntu </a></p>
+<p>ROS &#x662F;&#x673A;&#x5668;&#x4EBA;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF08;Robot Operating System&#xFF09;&#x7684;&#x7F29;&#x5199;&#xFF0C;&#x662F;&#x4E13;&#x4E3A;&#x673A;&#x5668;&#x4EBA;&#x8BBE;&#x8BA1;&#x7684;&#x5F00;&#x6E90;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x3002;&#x5B83;&#x63D0;&#x4F9B;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x6240;&#x9700;&#x7684;&#x670D;&#x52A1;&#xFF0C;&#x5305;&#x62EC;&#x786C;&#x4EF6;&#x62BD;&#x8C61;&#x3001;&#x5E95;&#x5C42;&#x8BBE;&#x5907;&#x63A7;&#x5236;&#x3001;&#x901A;&#x7528;&#x529F;&#x80FD;&#x5B9E;&#x73B0;&#x3001;&#x8FDB;&#x7A0B;&#x95F4;&#x901A;&#x4FE1;&#x548C;&#x5305;&#x7BA1;&#x7406;&#x3002;&#x6B64;&#x5916;&#xFF0C;ROS &#x8FD8;&#x63D0;&#x4F9B;&#x8DE8;&#x8BA1;&#x7B97;&#x673A;&#x8BBF;&#x95EE;&#x3001;&#x7F16;&#x8BD1;&#x3001;&#x7F16;&#x7801;&#x548C;&#x4EE3;&#x7801;&#x6267;&#x884C;&#x6240;&#x9700;&#x7684;&#x5DE5;&#x5177;&#x548C;&#x5E93;&#x3002;</p>
+<p>ROS &#x7684;&#x4E3B;&#x8981;&#x76EE;&#x6807;&#x662F;&#x652F;&#x6301;&#x673A;&#x5668;&#x4EBA;&#x5F00;&#x53D1;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x91CD;&#x7528;&#x3002;ROS &#x662F;&#x4E00;&#x4E2A;&#x5206;&#x5E03;&#x5F0F;&#x8FDB;&#x7A0B;&#x6846;&#x67B6;&#xFF0C;&#x88AB;&#x79F0;&#x4E3A; &quot;&#x8282;&#x70B9;&quot;&#xFF0C;&#x5C01;&#x88C5;&#x5728;&#x8F6F;&#x4EF6;&#x5305;&#x548C;&#x529F;&#x80FD;&#x4E2D;&#xFF0C;&#x53EF;&#x4EE5;&#x8F7B;&#x677E;&#x5171;&#x4EAB;&#x548C;&#x5206;&#x53D1;&#x3002;ROS &#x8FD8;&#x652F;&#x6301;&#x7C7B;&#x4F3C;&#x4E8E;&#x4EE3;&#x7801;&#x5E93;&#x7684;&#x534F;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF0C;&#x5B9E;&#x73B0;&#x9879;&#x76EE;&#x534F;&#x4F5C;&#x548C;&#x53D1;&#x5E03;&#x3002;&#x8FD9;&#x79CD;&#x8BBE;&#x8BA1;&#x5141;&#x8BB8;&#x5F00;&#x53D1;&#x548C;&#x5B9E;&#x65BD;&#x72EC;&#x7ACB;&#x4E8E;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x548C;&#x7528;&#x6237;&#x754C;&#x9762;&#x7684;&#x9879;&#x76EE;&#xFF0C;&#x800C;&#x4E0D;&#x53D7; ROS &#x7684;&#x9650;&#x5236;&#x3002;&#x540C;&#x65F6;&#xFF0C;&#x6240;&#x6709;&#x9879;&#x76EE;&#x7684;&#x6574;&#x5408;&#x90FD;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; ROS &#x7684;&#x57FA;&#x672C;&#x5DE5;&#x5177;&#x5B8C;&#x6210;&#x3002;</p>
+<p><strong>&#x8DF3;&#x8F6C;&#x5230;&#x5404;&#x90E8;&#x5206;&#xFF1A;</strong></p>
+<ul>
+<li><a href="6.2.2-ROS_Installation.html">&#x73AF;&#x5883;&#x642D;&#x5EFA;</a></li>
+<li><a href="6.2.3-Using_Common_ROS_Tools.html">ROS &#x57FA;&#x7840;</a></li>
+<li><a href="6.2.4-Basic_Control_Based_on_ROS.html">&#x57FA;&#x7840;&#x63A7;&#x5236;</a></li>
+<li><a href="6.2.5-Real-time_Mapping_with_Gmapping.html">Gmapping &#x5B9E;&#x65F6;&#x5EFA;&#x56FE;</a></li>
+<li><a href="6.2.6-Real-time_Mapping_with_Cartographer.html">Cartographer &#x5B9E;&#x65F6;&#x5EFA;&#x56FE;</a></li>
+<li><a href="6.2.7-Navigation-Map_Navigation.html">&#x5730;&#x56FE;&#x5BFC;&#x822A;</a></li>
+</ul>
+<hr>
+<p><a href="../5-BasicApplication/">&#x2190; &#x4E0A;&#x4E00;&#x7AE0;</a> | <a href="../7-SDKDevelopment/">&#x4E0B;&#x4E00;&#x7AE0; &#x2192;</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../5-BasicApplication/5.3-FirmwareUse/5.3.2-HowToBurnFirmware.html" class="navigation navigation-prev " aria-label="Previous page: 2 如何刻录固件">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="6.2.2-ROS_Installation.html" class="navigation navigation-next " aria-label="Next page: 6.1 安装和环境搭建">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"6 ROS 开发","level":"1.7","depth":1,"next":{"title":"6.1 安装和环境搭建","level":"1.7.1","depth":2,"path":"MYAGV_PI_2023_CN/6-ROS/6.2.2-ROS_Installation.md","ref":"MYAGV_PI_2023_CN/6-ROS/6.2.2-ROS_Installation.md","articles":[]},"previous":{"title":"2 如何刻录固件","level":"1.6.3.2","depth":3,"path":"MYAGV_PI_2023_CN/5-BasicApplication/5.3-FirmwareUse/5.3.2-HowToBurnFirmware.md","ref":"MYAGV_PI_2023_CN/5-BasicApplication/5.3-FirmwareUse/5.3.2-HowToBurnFirmware.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"MYAGV_PI_2023_CN/6-ROS/6.2.1-ROS_Introduction.md","mtime":"2024-04-19T09:09:43.289Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-04-19T10:14:39.845Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

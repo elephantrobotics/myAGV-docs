@@ -48,4 +48,4 @@
 
 ---
 
-[← 上一页](./1-setup.md) | [下一页 →](./4-other_function.md)
+[← 上一页](./2-install_driver.md) | [下一页 →](./4-other_function.md)

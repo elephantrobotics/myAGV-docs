@@ -1,52 +1,47 @@
-# 2 Install driver
+# 2 安装驱动程序
 
-> **Notice**: There is no need to download and install the driver in the myAGV Pi 2023 system.
+> **注意**：无需在 myAGV Pi 2023 系统中下载和安装驱动程序。
 
-Users can click the button below to download the corresponding **CP210X** or **CP34X** driver compressed package according to the operating system they are using. After decompressing the compressed package, select the installation package corresponding to the number of bits of the operating system to install.
+用户可点击下面的按钮，根据所使用的操作系统下载相应的 **CP210X** 或 **CP34X** 驱动程序压缩包。解压压缩包后，根据操作系统的位数选择相应的安装包进行安装。
 
-There are currently two driver chip versions, **CP210X** (applicable to CP2104 version) and **CP34X** (applicable to CH9102 version) driver compressed package. If you are not sure which USB chip your device uses, you can install both drivers at the same time. (**CH9102_VCP_SER_MacOS** During the installation process, an error may appear, but the installation has actually been completed, so just ignore it.)
+目前有两个驱动芯片版本，**CP210X**（适用于 CP2104 版本）和**CP34X**（适用于 CH9102 版本）驱动压缩包。如果您不确定设备使用的是哪种 USB 芯片，可以同时安装两种驱动程序。(**CH9102_VCP_SER_MacOS**在安装过程中可能会出现错误，但实际上安装已经完成，请忽略该错误)。
 
-For Mac OS, before installing make sure system "Preferences->Security & Privacy->General" and allow access from App Store and Recognized Developers.
+对于 Mac OS，安装前请确保系统 "Preferences->Security & Privacy->General" 并允许 App Store 和认可开发者访问。
 
-
-
-- Download the **M5Stack-basic** serial port driver at the bottom
+- 下载底部的 **M5Stack-basic** 串行端口驱动程序
 
   - **CP210X**
+
     - [ **Windows10** ](https://download.elephantrobotics.com/software/drivers/CP210x_VCP_Windows.zip)
     - [ **MacOS** ](https://download.elephantrobotics.com/software/drivers/CP210x_VCP_MacOS.zip)
     - [ **Linux** ](https://download.elephantrobotics.com/software/drivers/CP210x_VCP_Linux.zip)
 
-    - **CP34X**
+  - **CP34X**
 
-      - [ **Windows10** ](https://download.elephantrobotics.com/software/drivers/CH9102_VCP_SER_Windows.exe)
+    - [ **Windows10** ](https://download.elephantrobotics.com/software/drivers/CH9102_VCP_SER_Windows.exe)
 
-      - [ **MacOS** ](https://download.elephantrobotics.com/software/drivers/CH9102_VCP_MacOS.zip)
+    - [ **MacOS** ](https://download.elephantrobotics.com/software/drivers/CH9102_VCP_MacOS.zip)
 
-
-
-- Download the **Atom** serial port driver at the end
+- 在最后下载**Atom**串行端口驱动程序
 
   - [ **Windows10** ](https://download.elephantrobotics.com/software/drivers/CDM21228_Setup.zip)
 
-
 ![P210X_install](../../../resources/5-BasicApplication/5.2/5.2.2/img/4.1.1.2-CP210X_install.gif)
 
+## 1.3 如何区分 CP210X 和 CP34X 芯片
 
-
-## 1.3 How to distinguish CP210X and CP34X chips
-
-- As shown in the figure below, open **Device Manager** and view **Ports (COM and LPT)**
+- 如下图所示，打开 **设备管理器**，查看 **端口（COM 和 LPT）**
 
 ![frimware_check](../../../resources/5-BasicApplication/5.2/5.2.2/img/4.1.1.3-firmware_check.gif)
 
-  * If **Port (COM and LPT)** displays **USB-Enhanced-SERIAL CH9102**, it is **CP34X chip**
+- 如果 **端口（COM 和 LPT）** 显示 **USB-Enhanced-SERIAL CH9102**，则为**CP34X 芯片**。
 
 ![CP34X](../../../resources/5-BasicApplication/5.2/5.2.2/img/4.1.1.3-CP34X.jpg)
 
-  * If **Port (COM and LPT)** shows **Silicon Labs CP210x USB to UART Bridge**, it is **CP210X chip**
+- 如果 **端口（COM 和 LPT）** 显示 **Silicon Labs CP210x USB to UART Bridge**，则为**CP210X 芯片**。
 
 ![CP210C](../../../resources/5-BasicApplication/5.2/5.2.2/img/4.1.1.3-CP210X.jpg)
 
 ---
-[← Previous Page](./1-setup.md) | [Next Page →](./3-flash_firmwares.md)
+
+[← 上一页](./1-setup.md) | [下一页 →](./3-flash_firmwares.md)

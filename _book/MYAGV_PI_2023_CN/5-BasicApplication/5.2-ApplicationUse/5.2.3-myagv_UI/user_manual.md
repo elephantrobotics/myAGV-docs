@@ -69,199 +69,200 @@
 
 ![JoyStick Alphabet](../../../resources/5-BasicApplication/5.2/5.2.3/joystick_terminal.jpg "JoyStick Alphabet")
 
-> There are 7 buttons on the handle to control the car movement, as shown in the picture, 1~4 control the car forward and backward and left and right movement, 5 control the car counterclockwise rotation, 6 control the car clockwise rotation, 7 is the stop button.
+> 手柄上有 7 个控制小车运动的按钮，如图所示，1~4 控制小车前后左右运动，5 控制小车逆时针旋转，6 控制小车顺时针旋转，7 是停止按钮。
 
 ![JoyStick Alphabet](../../../resources/5-BasicApplication/5.2/5.2.3/joystick_alphabet.jpg)
 
 ---
 
-#### 2.2 Handle-Digital type
+#### 2.2 手柄-数字式
 
 ![JoyStick Number](../../../resources/5-BasicApplication/5.2/5.2.3/joystick_terminal.jpg "JoyStick Number")
 
-> There are 7 buttons on the handle to control the car movement, as shown in the picture, 1~4 control the car forward and backward and left and right movement, 5 control the car counterclockwise rotation, 6 control the car clockwise rotation, 7 is the stop button.
+> 手柄上有 7 个控制小车运动的按钮，如图所示，1~4 控制小车前后左右运动，5 控制小车逆时针旋转，6 控制小车顺时针旋转，7 是停止按钮。
 
 ![JoyStick Number](../../../resources/5-BasicApplication/5.2/5.2.3/joystick_number.png "JoyStick Number")
 
-## 4. Map and Navigation
+## 4. 地图和导航
 
 ![Map Navigation](../../../resources/5-BasicApplication/5.2/5.2.3/map_navi_en.png "Map and navigation")
 
-**Preconditions：**
+**前提条件：**
 
-- Open radar
-- Open keyboard control
+- 打开雷达
+- 打开键盘控制
 
-If it is not opened, a prompt box will pop up to prompt for the items that need to be opened.
+如果未打开，则会弹出提示框，提示需要打开的项目。
 
-### 4.1 Build Map
+### 4.1 构建地图
 
-**There are two way for building map by Gmapping and Cartographer.**
+**构建地图有两种方法，即 Gmapping 和 Cartographer。**
 
 ![Build Map](../../../resources/5-BasicApplication/5.2/5.2.3/build_map_en.png "Build Map")
 
 #### Gmapping
 
-Click the drop-down box to select the Gmapping mapping method, and click the "Open Mapping" button to start mapping.
+点击下拉框选择 Gmapping 映射方法，然后点击 "Open Mapping"按钮开始映射。
 
-- Desktop display rviz interface.
-- Select the opened keyboard terminal and use the keyboard to control the car. The rviz space will build the map as the car moves. The trajectory is shown in the figure: ![Gmapping Map](../../../resources/5-BasicApplication/5.2/5.2.3/gmapping_rviz.png "Gmapping Map")
+- 桌面显示 rviz 界面。
+- 选择打开的键盘终端，使用键盘控制汽车。rviz 空间将随着汽车的移动绘制地图。轨迹如图所示：
+  ![Gmapping Map](../../../resources/5-BasicApplication/5.2/5.2.3/gmapping_rviz.png "Gmapping Map")
 
 #### Cartographer
 
-Click the drop-down box to select the Gmapping mapping method, and click the "Open Mapping" button to start mapping.
+点击下拉框选择 Cartographer 映射方法，然后点击 "Open Mapping"按钮开始映射。
 
-- Click the button and it will open a new terminal. If the terminal keeps scrolling the output data, the cartographer build file is successfully opened, and the terminal displays the following status: ![Cartographer Map](../../../resources/5-BasicApplication/5.2/5.2.3/cartographer_terminal.png)
-- When the code runs successfully, rviz will be opened, and the map and lidar information will be displayed in rviz, and the red arrow is the direction of the car. The interface is shown in the figure. ![Cartographer Map](../../../resources/5-BasicApplication/5.2/5.2.3/cartograph_rviz.jpg)
-- Select the opened keyboard terminal and use the keyboard to control the car. The rviz space will build the map as the car moves. The trajectory is shown in the figure: ![Cartographer Track](../../../resources/5-BasicApplication/5.2/5.2.3/catograph_rviz2.jpg)
+- 点击该按钮，将打开一个新的终端。如果终端一直滚动输出数据，则制图师构建文件已成功打开，终端会显示以下状态：
+  ![Cartographer Map](../../../resources/5-BasicApplication/5.2/5.2.3/cartographer_terminal.png)
+- 代码运行成功后，rviz 将被打开，地图和激光雷达信息将显示在 rviz 中，红色箭头为汽车行驶方向。界面如图所示。
+  ![Cartographer Map](../../../resources/5-BasicApplication/5.2/5.2.3/cartograph_rviz.jpg)
+- 选择打开的键盘终端，使用键盘控制汽车。rviz 空间将随着汽车的移动绘制地图。轨迹如图所示：
+  ![Cartographer Track](../../../resources/5-BasicApplication/5.2/5.2.3/catograph_rviz2.jpg)
 
-**Limit:** Navigation cannot be used after mapping is turned on; if you need to use the navigation function, please turn off mapping first.
+**限制：** 打开映射后无法使用导航功能；如果需要使用导航功能，请先关闭映射。
 
-#### 4.1.1 Save Map
+#### 4.1.1 保存地图
 
 ![Save Map](../../../resources/5-BasicApplication/5.2/5.2.3/save_map_en.png "Save Map")
 
-Click the "Save Map" button, and a new terminal will appear on the desktop to display the saved map information, as shown in the figure. The red circled part in the picture is the saved map file:
+点击 "Save Map"按钮，桌面上会出现一个新的终端，显示保存的地图信息，如图所示。图中红圈部分就是保存的地图文件：
 
 ![Save map terminal](../../../resources/5-BasicApplication/5.2/5.2.3/save_map.png)
 
-**The default save path is in the software running directory.**
+**默认保存路径在软件运行目录中。**
 
-### 4.2 Navigation
+### 4.2 导航
 
 ![Map Navigation](../../../resources/5-BasicApplication/5.2/5.2.3/navagation_en.png "Map Navigation")
 
-### Preconditions
+### 先决条件
 
-#### 1、Copy and paste the saved map file into this path
+#### 1. 将保存的地图文件复制并粘贴到此路径中
 
 > /home/ubuntu/myagv_ros/src/myagv_navigation/map/
 
 ![File Manager](../../../resources/5-BasicApplication/5.2/5.2.3/file_2.png)
 
-#### 2、modify the launch file
+#### 2. 修改启动文件
 
-1. Click to open Visual Studio Code in the top left corner to open the code editor.  
+1. 点击左上角的 "Visual Studio Code"，打开代码编辑器。  
    ![vscode Icon](../../../resources/5-BasicApplication/5.2/5.2.3/vscode_icon.png)
 
-2. Open the navigation_active.launch file in /home/ubuntu/myagv_ros/src/myagv_navigation/launch/ path.  
+2. 打开/home/ubuntu/myagv_ros/src/myagv_navigation/launch/路径下的 navigation_active.launch 文件。  
    ![modify launchfile1](../../../resources/5-BasicApplication/5.2/5.2.3/modify_launch1.png)
 
-3、Replace the myroom2.yaml in line 5 with our own map file name map.yaml.  
-![modify launch file2](../../../resources/5-BasicApplication/5.2/5.2.3/modify_launch2.png)
+3. 将第 5 行中的 myroom2.yaml 替换为我们自己的地图文件名 map.yaml。  
+   ![modify launch file2](../../../resources/5-BasicApplication/5.2/5.2.3/modify_launch2.png)
 
-4、Save the modified file and exit (VScode is more memory intensive when running, it is recommended to close VScode after modifying the code, otherwise the running carsystem will be very laggy, you can also use vim and other lightweight editors.)
+4. 保存修改后的文件并退出（VScode 运行时内存占用较大，建议修改代码后关闭 VScode，否则运行 carsystem 会非常卡顿，也可以使用 vim 或其他轻量级编辑器）。
 
-**After following the above steps, click the corresponding button according to the desired navigation method.**  
-**A Rviz simulation window will open. Note: It is best to place the initial position of the car at the starting position of the car when we build the map.**
+**按照上述步骤操作后，根据所需的导航方法点击相应的按钮。**  
+**Rviz 模拟窗口将打开。注意：最好在绘制地图时将汽车的初始位置置于汽车的起始位置。**
 
-### Adjust
+### 调整
 
-If the car on the Rviz interface does not correspond to the actual car, click "2D Pose Estimate" on the top toolbar to adjust, so that the car on the Rviz interface and the realized car can correspond, and navigate after adjustment.
+如果 Rviz 界面上的汽车与实际汽车不一致，请单击顶部工具栏上的 "2D Pose Estimate（二维姿势估算）"进行调整，使 Rviz 界面上的汽车与实际汽车一致，并在调整后进行导航。
 
 ![Run launch File1](../../../resources/5-BasicApplication/5.2/5.2.3/run_launch1.jpg)
 
-1、Click on "2D Nav Goal" in the top toolbar.
+1. 点击顶部工具栏中的 "2D 导航目标"。
 
 ![Run launch File3](../../../resources/5-BasicApplication/5.2/5.2.3/run_launch3.png)
 
-2、Click on the point we want to reach on the map, the carwill start towards the target point, and you can also see in the rviz a planned path of the carbetween the starting point and the target point, the carwill move along the route to the target point.
+2. 在地图上点击我们要到达的点，汽车就会开始向目标点行驶，您还可以在 rviz 中看到汽车在起点和目标点之间的规划路径，汽车将沿着这条路线行驶到目标点。
 
 ![Run launch File4](../../../resources/5-BasicApplication/5.2/5.2.3/run_launch4.jpg)
 
-**Limit:**
+**限制：**
 
-- You can only choose one of the two methods: navigation and 3D navigation. If you need to use another one, please close the current one.
-- Mapping cannot be opened after the navigation is turned on. If you need to build a map, please close the navigation.
+- 您只能从导航和 3D 导航两种方法中选择一种。如果您需要使用另一种方法，请关闭当前方法。
+- 打开导航后无法打开地图。如果您需要创建地图，请关闭导航。
 
-## 5、 LED light Control
+## 5. LED 灯光控制
 
 ![LED Light](../../../resources/5-BasicApplication/5.2/5.2.3/led_light_en.png "LED Light")
 
-**Preconditions：** Close radar
-Use the disc to select the light color, and drag the slider to change the brightness of the light color. The right side of the picture shows the corresponding HEX and RGB values.
+**前提条件：** 关闭雷达
+使用圆盘选择光色，拖动滑块改变光色的亮度。图片右侧显示了相应的 HEX 和 RGB 值。
 
-## 6、 Testing FUnction
+## 6. 测试功能
 
 ![Testing Function](../../../resources/5-BasicApplication/5.2/5.2.3/testing_en.png "Testing Function")
-**Limit：During the test, the radar, basic control, and map navigation modules cannot be used.**
+**限制：在测试期间，不能使用雷达、基本控制和地图导航模块。**
 
-### 6.1 Motor
+### 6.1 电机 Motor
 
-**Functions：** Check whether the motor can operate normally  
-**Running：**
+**功能：** 检查电机是否能正常运行
+**运行：**
 
-- Select the 'Motor' from the drop-down box and click to start testing
-- In this process, it is recommended to place myAgv on the ground for testing; during the process, it will go forward and backward for 4 seconds each, translate left and right for 4 seconds each, and rotate left and right for 8 seconds each.
-- After all the above steps are executed, the detection is completed.
+- 从下拉框中选择 'Motor'，点击开始测试
+- 在此过程中，建议将 myAgv 放在地面上进行测试；在此过程中，它将前进和后退各 4 秒钟，左右平移各 4 秒钟，左右旋转各 8 秒钟。
+- 执行上述所有步骤后，检测就完成了。
 
-### 6.2 LED light
+### 6.2 LED 灯
 
-**Functions：** Check whether the Led light can operate normally  
-**Running：**
+**功能：** 检查 LED 灯是否能正常工作  
+**运行：**
 
-- Select the 'LED' from the drop-down box and click to start testing
-- Switch the red, orange, yellow, green, blue, and purple colors in sequence. If the color switching can be observed normally, the LED light is used normally.
-- The display time of each color is 1s. After all colors are displayed normally, the detection is completed.
+- 从下拉框中选择 "LED"，然后点击开始测试
+- 依次切换红色、橙色、黄色、绿色、蓝色和紫色。如果可以正常观察到颜色切换，则说明 LED 灯使用正常。
+- 每种颜色的显示时间为 1 秒。所有颜色正常显示后，检测结束。
 
-### 6.3 3D Camera
+### 6.3 3D 摄像头
 
-**Functions：** Check whether the 3D camera can operate normally  
-**Running：**
+**功能：** 检查 3D 摄像机是否能正常工作  
+**运行：**
 
-- Select the '3D Camera' from the drop-down box and click to start testing
-- A new window pops up to display the image captured by the camera; if the image can be displayed, the camera is operating normally.
-- The screen is displayed for about 5 seconds, and then the window screen is automatically closed. Testing completed.
+- 从下拉框中选择 "3D Camera"，然后单击开始测试
+- 此时会弹出一个新窗口，显示摄像机捕捉到的图像；如果图像可以显示，则说明摄像机运行正常。
+- 屏幕显示约 5 秒钟，然后窗口屏幕自动关闭。测试完成。
 
-### 6.4 2D Camera
+### 6.4 2D 摄像机
 
-**Functions：** Check whether the 2D camera can operate normally  
-**Running：**
+**功能：** 检查 2D 摄像机是否能正常工作  
+**运行：**
 
-- Select the '2D Camera' from the drop-down box and click to start testing
-- A new window pops up to display the image captured by the camera; if the image can be displayed, the camera is operating normally.
-- The screen is displayed for about 5 seconds, and then the window screen is automatically closed. Testing completed.
+- 从下拉框中选择 "2D Camera"，然后点击开始测试
+- 此时会弹出一个新窗口，显示摄像机拍摄的图像；如果图像可以显示，则说明摄像机运行正常。
+- 屏幕显示约 5 秒钟，然后窗口屏幕自动关闭。测试完成。
 
-### 6.5 Pump
+### 6.5 吸泵 Pump
 
-**Functions：** Check whether the pump can operate normally  
-**Running：**
+**功能：** 检查泵是否能正常运行  
+**运行：**
 
-- Select the 'Pump' from the drop-down box and click to start testing
-- The suction pump is turned on and turns off automatically after running for 4 seconds; at this time the detection is completed
+- 从下拉框中选择 "Pump"，然后点击开始测试
+- 吸入泵开启，运行 4 秒后自动关闭；此时检测完成
 
-### 6.6 Restore
+### 6.6 恢复 Restore
 
 ![Restore Function](../../../resources/5-BasicApplication/5.2/5.2.3/restore_en.png "Restore FUnction")  
-**Functions：** Return the stalled motor to normal operation.
-**Running：** Clicked the button as the picture shows above.
+**功能：** 使停转的电机恢复正常运行。  
+**运行：** 点击如上图所示的按钮。
 
-- Select the 'Pump' from the drop-down box and click to start testing
-- The suction pump is turned on and turns off automatically after running for 4 seconds; at this time the detection is completed
-
-## 7. Log Area
+## 7. 日志区 Log Area
 
 ![Log Area](../../../resources/5-BasicApplication/5.2/5.2.3/log_area_en.png "Log Area")
 
-All the above operations will be displayed in the log area. Click the "Clear Button" on the right side of the icon to clear the current content.
+所有上述操作都将显示在日志区域。点击图标右侧的 "清除按钮 "可清除当前内容。
 
-## 8. Status Detection
+## 8. 状态检测 Status Detection
 
 ![Status Detecting](../../../resources/5-BasicApplication/5.2/5.2.3/status_add_en.png "Status Information")
 
-**1、 IP Address:** Show current IP address  
-**2、 Battery Information:** Display the currently connected battery information
+**1. IP Address:** 显示当前 IP 地址
+**2. Battery Information:** 显示当前连接的电池信息
 
-- When connected, the green light and the corresponding power and voltage are displayed; when not connected, the display is gray and the value is 0.
+- 连接时，绿灯亮，显示相应的功率和电压；未连接时，显示屏呈灰色，数值为 0。
 
-**3、 Motor Current:** Shows whether there is current flowing through and the electricity value
+**3. Motor Current:** 显示是否有电流流过以及电流值
 
-- When the motor is in motion and there is current flowing through it, the motor will light up green and the page will display the current value; otherwise it will be gray.
+- 当电机运行且有电流流过时，电机将亮起绿灯，页面将显示电流值；否则将显示灰色。
 
-**4、 Radar Detection:** Shows whether radar is on
+**4. Radar Detection:** 显示雷达是否开启
 
-- When the radar button is turned on, the green light turns on; when the radar button is turned off, the light turns off and turns gray.
+- 打开雷达按钮时，绿灯亮起；关闭雷达按钮时，绿灯熄灭并变成灰色。
 
 ---
 
-[← Previous Page](../../README.md) | [Next Chapter →](../../5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.md)
+[← 基础功能使用页](../../README.md#52-应用用途) | [下一章 →](../../5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.md)

@@ -27,12 +27,12 @@
   - \*.exe - 窗口系统
 
 **2. [官方网站地址](https://www.elephantrobotics.com/download/)**
-s
+
 您可以根据自己的计算机系统选择下载 `myStudio 2.0`。
 
 <img src="../../../resources/5-BasicApplication/5.2/5.2.2/img/download.png" style="zoom: 50%;" />
 
-## 下载
+## 安装
 
 ### 为 Linux 安装 myStudio
 
@@ -116,4 +116,4 @@ myblockly 已卸载，单击 `Finish` 退出
 
 ---
 
-[← 上一页](./README.md) | [下一页 →](./3-flash_firmwares.md)
+[← 上一页](./README.md) | [下一页 →](./2-install_driver.md)
