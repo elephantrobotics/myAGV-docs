@@ -12,7 +12,9 @@ The typical use case scenarios for myagv often involve pairing with robotic arms
 
 **ultraArm P340**
 
-**跳转到各部分：**
+---
+
+**Skip to sections:**
 
 - [Installation Instructions](7.1-InstallationInstructions.md)
 - [Communications Control](7.2-CommunicationsControl.md)
