@@ -18,11 +18,11 @@
 
   ![](../../../resources/5-BasicApplication/5.2/5.2.2/img/agvpi/1.4.png)
 
-- 点击闪光
+- 点击Flash
 
   ![](../../../resources/5-BasicApplication/5.2/5.2.2/img/agvpi/1.5.png)
 
-- 成功燃烧
+- 成功烧录
 
   ![](../../../resources/5-BasicApplication/5.2/5.2.2/img/agvpi/1.6.png)
 

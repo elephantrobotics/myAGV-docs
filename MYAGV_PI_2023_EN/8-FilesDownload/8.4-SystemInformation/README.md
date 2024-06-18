@@ -9,5 +9,10 @@ As a kind of copy of file, mirroring can help us solve many problems. If you are
 1. When the system or the robot is required to be started again;
 2. When the original mirroring file is destroyed.
 
+**Skip to sections:**
+
+- [System Image](8.4.1-System_Image.md)
+- [Mirror Burning](8.4.2-Image_Burning.md)
+
 ---
 [← Previous Page](../8.3-softwareSource.md) | [Next Section →](8.4-SystemInformation/README.md)
