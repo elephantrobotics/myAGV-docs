@@ -1,4 +1,4 @@
-# myAGV-PI gitbook
+# myAGV-Jetson-Nano gitbook
 
 - [1 产品介绍](/MYAGV_JN_2023_CN/1-ProductIntroduction/README.md)
 
