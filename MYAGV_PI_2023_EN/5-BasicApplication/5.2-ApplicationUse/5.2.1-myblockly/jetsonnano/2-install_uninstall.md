@@ -149,3 +149,6 @@ If you want to update myblockly, please go to the [official website](https://www
 
 
 
+---
+
+[← Previous Page](1-myBlocklyFirstUse.md) | [Next Page →](3-interface_description.md)

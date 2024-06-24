@@ -52,3 +52,7 @@
 
 - Stop Block: Run this block to stop the machine.
 - Motor stall recovery Block: Run this block to stall recovery the motor
+
+---
+
+[← Previous Page](4-Q&A.md) | [Next Page →](../../5.2.2-mystudio/jetsonnano/README.md)

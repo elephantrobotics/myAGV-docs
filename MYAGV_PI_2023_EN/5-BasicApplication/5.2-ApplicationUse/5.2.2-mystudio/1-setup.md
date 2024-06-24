@@ -189,4 +189,4 @@ myblockly has been uninstalled, click `Finish` to exit
 
 
 ---
-[← Previous Page](./README.md) | [Next Page →](./3-flash_firmwares.md)
+[← Previous Page](./README.md) | [Next Page →](./2-install_driver.md)

@@ -30,3 +30,6 @@
 - Provide robot usage tutorials, such as user manuals, video tutorials, Q&A, etc.
 - Information on maintenance and repairs
 
+---
+
+[← Previous Page](../../5.2.1-myblockly/jetsonnano/README.md) | [Next Page →](1-setup.md)

@@ -66,3 +66,6 @@
 
 
 
+---
+
+[← Previous Page](2-install_driver.md) | [Next Page →](4-other_function.md)

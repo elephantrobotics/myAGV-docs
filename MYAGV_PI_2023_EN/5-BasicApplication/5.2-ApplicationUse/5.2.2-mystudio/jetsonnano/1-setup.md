@@ -184,3 +184,7 @@ myblockly has been uninstalled, click `Finish` to exit
 
 
 ![](../../../../resources/5-BasicApplication/5.2.2/img/update.png)
+
+---
+
+[← Previous Page](README.md) | [Next Page →](2-install_driver.md)
