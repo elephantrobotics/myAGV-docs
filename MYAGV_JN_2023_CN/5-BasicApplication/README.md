@@ -17,10 +17,10 @@
 
 针对 myAGV 系列产品，我们推出了专为机器人应用和维护设计的软件，供用户使用。其中，myBlockly 和 myStudio 是用户使用机器人的必备工具。本章将详细介绍这三款软件的使用方法。
 
-- [myBlockly](5.2-ApplicationUse/5.2.1-myblockly/README.md)<br>
+- [myBlockly](5.2-ApplicationUse/5.2.1-myblockly/jetsonnano/README.md)<br>
   myBlockly 是一款完全可视化的模块化编程软件，是一种图形化编程语言。myBlockly 界面简洁，编程功能全面。它的可视化编程方法适合初次接触机器人产品的用户。
 
-- [myStudio](5.2-ApplicationUse/5.2.2-mystudio/README.md)<br>
+- [myStudio](5.2-ApplicationUse/5.2.2-mystudio/jetsonnano/README.md)<br>
   myStudio 是使用 myAGV 等机器人的一站式平台。用户可以根据自己的使用场景选择不同的固件并下载，同时还可以在线学习相关教材和浏览教学视频，非常方便。
 
 - [myagv_UI](5.2-ApplicationUse/5.2.3-myagv_UI/user_manual.md)<br>

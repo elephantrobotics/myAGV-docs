@@ -63,5 +63,5 @@
 - A：If the machine becomes uncontrollable after burning the firmware, you can try burning it multiple times. If it cannot be resolved, please contact after-sales service.
 
 ---
-[← Previous Page](./1-setup.md) | [Next Page →](./4-other_function.md)
+[← Previous Page](./2-install_driver.md) | [Next Page →](./4-other_function.md)
 
