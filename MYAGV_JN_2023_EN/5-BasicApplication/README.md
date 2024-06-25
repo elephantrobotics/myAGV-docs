@@ -16,10 +16,10 @@ No complicated configuration required. It also provides automatic update softwar
 **5.2-Application Use**
 
 For the myAGV series of products, we have introduced software specifically designed for robot applications and maintenance, which is available for our users. Among them, myBlockly, and myStudio are essential tools for users working with the robot. This chapter will provide detailed descriptions of the usage of these three software applications.
-- [myBlockly](5.2-ApplicationUse/5.2.1-myblockly/README.md)<br>
+- [myBlockly](5.2-ApplicationUse/5.2.1-myblockly/jetsonnano/README.md)<br>
   myBlockly is a completely visual modular programming software that is a graphical programming language. myBlockly has a clean interface and comprehensive programming features. Its visual programming approach is suitable for users who are new to robot products.
 
-- [myStudio](5.2-ApplicationUse/5.2.2-mystudio/README.md)<br>
+- [myStudio](5.2-ApplicationUse/5.2.2-mystudio/jetsonnano/README.md)<br>
   myStudio is a one-stop platform for using robots such as myAGV. It is convenient for users to select different firmware and download it according to their own usage scenarios, while learning relevant teaching materials and browsing tutorial videos online.
 
 - [myagv_UI](5.2-ApplicationUse/5.2.3-myagv_UI/user_manual.md)<br>
