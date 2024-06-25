@@ -273,4 +273,4 @@ All the above operations will be displayed in the log area. Click the "Clear But
 - When the radar button is turned on, the green light turns on; when the radar button is turned off, the light turns off and turns gray.
 
 ---
-[← Previous Section](../5.2.2-mystudio/README.md) | [Next Section →](../../5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.md)
+[← Previous Section](../5.2.2-mystudio/jetsonnano/README.md) | [Next Section →](../../5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.md)
