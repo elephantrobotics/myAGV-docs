@@ -30,4 +30,4 @@
 
 ---
 
-[← 基础功能使用页](../../README.md#52-应用用途) | [下一页 →](./1-myBlocklyFirstUse.md)
+[← 基础功能使用页](../../../README.md#52-应用用途) | [下一页 →](./1-myBlocklyFirstUse.md)
