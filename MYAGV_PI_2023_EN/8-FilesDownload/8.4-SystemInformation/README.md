@@ -15,4 +15,4 @@ As a kind of copy of file, mirroring can help us solve many problems. If you are
 - [Mirror Burning](8.4.2-Image_Burning.md)
 
 ---
-[← Previous Page](../8.3-softwareSource.md) | [Next Section →](8.4-SystemInformation/README.md)
+[← Previous Page](../8.3-softwareSource.md) | [Next Section →](../8.5-PublicityMaterial.md)
