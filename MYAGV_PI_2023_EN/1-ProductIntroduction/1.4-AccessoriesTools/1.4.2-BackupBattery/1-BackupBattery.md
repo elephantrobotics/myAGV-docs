@@ -11,7 +11,7 @@ With the same specifications as the primary battery of myAGV 2023 and a quick in
 | **Parameter** | **Specification**                    |
 | ------------- | ------------------------------------- |
 | Capacity      | 6400mAh                                |
-| Voltage       | 11.1V                                  |
+| Voltage       | 12.6V                                  |
 | Compatibility | myAGV PI 2023 , myAGV Jetson Nano 2023 |
 
 ## How to use
