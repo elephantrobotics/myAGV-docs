@@ -64,9 +64,8 @@
     - [6.2.6 地图导航](MYAGV_PI_2023_CN/6-SDKDevelopment/6.2-ApplicationBaseROS1/6.2.7-Navigation-Map_Navigation.md)
 
 - [7 实用场景案例](MYAGV_PI_2023_CN/7-ExamplesRobotsUsing/README.md)
-  - [7.1 复合机器人](MYAGV_PI_2023_CN/7-ExamplesRobotsUsing/README.md)
-    - [7.1.1 安装说明](MYAGV_PI_2023_CN/7-ExamplesRobotsUsing/7.1-InstallationInstructions.md)
-    - [7.2.2 通信控制](MYAGV_PI_2023_CN/7-ExamplesRobotsUsing/7.2-CommunicationsControl.md)
+  - [1 myAGV+280Pi复合机器人](MYAGV_PI_2023_CN/7-ExamplesRobotsUsing/280pi.md)
+ 
 - [8 相关资料下载](MYAGV_PI_2023_CN/8-FilesDownload/README.md)
   - [8.1 Gitbook 下载](MYAGV_PI_2023_CN/8-FilesDownload/8.1-GitbookDownload.md)
   - [8.2 产品图纸](MYAGV_PI_2023_CN/8-FilesDownload/8.2-productBrochure.md)
