@@ -8,6 +8,7 @@
   - [1.4 周边配件](/MYAGV_JN_2023_CN/1-ProductIntroduction/1.4-AccessoriesTools/1.4-AccessoriesTools.md)
     - [1.4.1 屏幕](/MYAGV_JN_2023_CN/1-ProductIntroduction/1.4-AccessoriesTools/1.4.1-IPS/1-IPSTouchScreen.md)
     - [1.4.2 备用电池](/MYAGV_JN_2023_CN/1-ProductIntroduction/1.4-AccessoriesTools/1.4.2-BackupBattery/1-BackupBattery.md)
+    - [1.4.3 深度相机](/MYAGV_JN_2023_CN/1-ProductIntroduction/1.4-AccessoriesTools/1.4.3-DepthCamera/1-AstraPro2.md)
 
 - [2 产品特性](/MYAGV_JN_2023_CN/2-ProductFeature/README.md)
 
