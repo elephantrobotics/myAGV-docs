@@ -17,4 +17,4 @@ This chapter provides comprehensive downloads of relevant information, including
 [8.5-Publicity Material](8.5-PublicityMaterial.md)
 
 ---
-[← Previous Chapter](../7-ExamplesRobotsUsing/README.md) | [Next Chapter →](../9-AboutUs/README.md)
+[← Previous Chapter](../7-ExamplesRobotsUsing/280jn.md) | [Next Chapter →](../9-AboutUs/README.md)
