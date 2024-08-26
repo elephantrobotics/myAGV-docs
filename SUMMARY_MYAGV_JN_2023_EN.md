@@ -8,6 +8,7 @@
   - [1.4 Accessories Tools](/MYAGV_JN_2023_EN/1-ProductIntroduction/1.4-AccessoriesTools/1.4-AccessoriesTools.md)
     - [1.4.1 IPS Touch Screen](/MYAGV_JN_2023_EN/1-ProductIntroduction/1.4-AccessoriesTools/1.4.1-IPS/1-IPSTouchScreen.md)
     - [1.4.2 Backup Battery](/MYAGV_JN_2023_EN/1-ProductIntroduction/1.4-AccessoriesTools/1.4.2-BackupBattery/1-BackupBattery.md)
+    - [1.4.3 Depth camera](/MYAGV_JN_2023_EN/1-ProductIntroduction/1.4-AccessoriesTools/1.4.3-DepthCamera/1-AstraPro2.md)
 
 - [2 Product Feature](/MYAGV_JN_2023_EN/2-ProductFeature/README.md)
 
@@ -65,9 +66,9 @@
     - [6.2.7 Real-time Mapping with Rtabmap and Navigation](MYAGV_JN_2023_EN/6-SDKDevelopment/6.2-ApplicationBaseROS1/6.2.8-Rtabmap.md)
 
 - [7 Scenario Examples]()
-  - [1 myAGV+280Pi Composite Robot](MYAGV_JN_2023_EN/7-ExamplesRobotsUsing/280pi.md)
-  - [2 myAGV+280M5 Composite Robot](MYAGV_JN_2023_EN/7-ExamplesRobotsUsing/280m5.md)
-  - [3 myAGV+280JN Composite Robot](MYAGV_JN_2023_EN/7-ExamplesRobotsUsing/280jn.md)
+  - [7.1 myAGV+280Pi Composite Robot](MYAGV_JN_2023_EN/7-ExamplesRobotsUsing/280pi.md)
+  - [7.2 myAGV+280M5 Composite Robot](MYAGV_JN_2023_EN/7-ExamplesRobotsUsing/280m5.md)
+  - [7.3 myAGV+280JN Composite Robot](MYAGV_JN_2023_EN/7-ExamplesRobotsUsing/280jn.md)
 - [8 Documents Download](MYAGV_JN_2023_EN/8-FilesDownload/README.md)
   - [8.1 Gitbook Download](MYAGV_JN_2023_EN/8-FilesDownload/8.1-GitbookDownload.md)
   - [8.2 Product Drawings](MYAGV_JN_2023_EN/8-FilesDownload/8.2-productBrochure.md)
