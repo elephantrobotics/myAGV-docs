@@ -8,13 +8,13 @@ Before you begin, please make sure you are familiar with basic Git operations an
 
 ## Document jump link
 
-[SUMMARY_MYAGV_JN_2023_EN](https://docs.elephantrobotics.com/docs/myagv-jn-2024-en)
+[SUMMARY_MYAGV_JN_2023_EN](https://docs.elephantrobotics.com/docs/myagv-jn-2023-en)
 
-[SUMMARY_MYAGV_JN_2023_CN](https://docs.elephantrobotics.com/docs/myagv-jn-2024-cn)
+[SUMMARY_MYAGV_JN_2023_CN](https://docs.elephantrobotics.com/docs/myagv-jn-2023-cn)
 
-[SUMMARY_MYAGV_PI_2023_EN](https://docs.elephantrobotics.com/docs/myagv-pi-2024-en)
+[SUMMARY_MYAGV_PI_2023_EN](https://docs.elephantrobotics.com/docs/myagv-pi-2023-en)
 
-[SUMMARY_MYAGV_PI_2023_CN](https://docs.elephantrobotics.com/docs/myagv-pi-2024-cn)
+[SUMMARY_MYAGV_PI_2023_CN](https://docs.elephantrobotics.com/docs/myagv-pi-2023-cn)
 
 ## How to Report Issues
 
