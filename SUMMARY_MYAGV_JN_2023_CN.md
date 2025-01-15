@@ -1,6 +1,6 @@
 # myAGV-Jetson-Nano gitbook
 
-- [1 产品介绍](1-ProductIntroduction/README.md)
+- [1 产品介绍](MYAGV_JN_2023_CN/1-ProductIntroduction/README.md)
 
   - [1.1 设计理念](1-ProductIntroduction/1.1-DesignPhilosophy.md)
   - [1.2 适用人群](1-ProductIntroduction/1.2-SuitableUsers.md)
@@ -66,7 +66,7 @@
     - [6.2.7 Rtabmap建图和导航](6-SDKDevelopment/6.2-ApplicationBaseROS1/6.2.8-Rtabmap.md)
 
 - [7 实用场景案例]()
-  - [7.1 myAGV+280Pi复合机器人](7-ExamplesRobotsUsing/280pi.md)
+  - [7.1 myAGV+280Pi复合机器人](MYAGV_JN_2023_CN/7-ExamplesRobotsUsing/280pi.md)
   - [7.2 myAGV+280M5复合机器人](7-ExamplesRobotsUsing/280m5.md)
   - [7.3 myAGV+280JN复合机器人](7-ExamplesRobotsUsing/280jn.md)
 
