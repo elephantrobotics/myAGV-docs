@@ -18,4 +18,4 @@
 
 ---
 
-[← 上一章](../7-ExamplesRobotsUsing/README.md) | [下一章 →](../9-AboutUs/README.md)
+[← 上一章](../7-ExamplesRobotsUsing/280jn.md) | [下一章 →](../9-AboutUs/README.md)
