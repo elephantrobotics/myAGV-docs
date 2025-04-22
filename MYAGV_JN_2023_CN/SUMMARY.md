@@ -56,6 +56,7 @@
     - [6.1.1 环境配置](6-SDKDevelopment/6.1-ApplicationBasePython/6.1.1-download.md)
     - [6.1.2 API 使用说明](6-SDKDevelopment/6.1-ApplicationBasePython/6.1.2-API.md)
   - [6.2 ROS 开发](6-SDKDevelopment/6.2-ApplicationBaseROS1/6.2.1-ROS_Introduction.md)
+
     - [6.2.1 安装和环境搭建](6-SDKDevelopment/6.2-ApplicationBaseROS1/6.2.2-ROS_Installation.md)
     - [6.2.2 ROS 基础工具](6-SDKDevelopment/6.2-ApplicationBaseROS1/6.2.3-Using_Common_ROS_Tools.md)
     - [6.2.3 ROS 基本控制](6-SDKDevelopment/6.2-ApplicationBaseROS1/6.2.4-Basic_Control_Based_on_ROS.md)
@@ -72,7 +73,6 @@
   - [7.1 myAGV+280Pi复合机器人](7-ExamplesRobotsUsing/280pi.md)
   - [7.2 myAGV+280M5复合机器人](7-ExamplesRobotsUsing/280m5.md)
   - [7.3 myAGV+280JN复合机器人](7-ExamplesRobotsUsing/280jn.md)
-  - [7.4 myAGV+270M5复合机器人手柄遥控](7-ExamplesRobotsUsing/270.md)
 
 - [8 相关资料下载](8-FilesDownload/README.md)
   - [8.1 Gitbook 下载](8-FilesDownload/8.1-GitbookDownload.md)
