@@ -119,7 +119,8 @@ Download the Mac version of myblockly from the official website to get an instal
 
 Enter the file directory of myblockly and click to run `Uninstall myblockly.exe`
 
-<img src="C:\Users\Administrator\Desktop\320gitbook截图\en\img\uninstall.png"  />
+![](../../../../resources/5-BasicApplication/5.2/5.2.1/img/uninstall.png)
+
 
 ![](../../../../resources/5-BasicApplication/5.2/5.2.1/img/uninstall_1.png)
 
