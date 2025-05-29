@@ -23,6 +23,9 @@
   - [3.2 Transport and Storage](3-UserNotes/3.2-TransportandStorage.md)
   - [3.3 Maintenance and Care](3-UserNotes/3.3-MaintenanceandCare.md)
   - [3.4 FAQs](3-UserNotes/3.4-FAQs.md)
+    * [1 Software](3-UserNotes/2_software.md)
+    * [2 Hardware](3-UserNotes/3_hardware.md)
+    * [3 Others](3-UserNotes/0_other.md)
 
 - [4 First Install and Use](4-FirstInstallAndUse/README.md)
 

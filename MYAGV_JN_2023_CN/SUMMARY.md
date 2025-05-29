@@ -23,6 +23,9 @@
   - [3.2 运输和存储](3-UserNotes/3.2-TransportandStorage.md)
   - [3.3 维护和保养](3-UserNotes/3.3-MaintenanceandCare.md)
   - [3.4 常见问题解决](3-UserNotes/3.4-FAQs.md)
+    - [1 软件](3-UserNotes/2_software.md)
+    - [2 硬件](3-UserNotes/3_hardware.md)
+    - [3 其他](3-UserNotes/0_other.md)
 
 - [4 首次安装使用](4-FirstInstallAndUse/README.md)
 
