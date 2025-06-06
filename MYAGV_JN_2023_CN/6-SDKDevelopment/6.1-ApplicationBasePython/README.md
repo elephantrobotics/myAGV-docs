@@ -1,6 +1,6 @@
 # 什么是 Python？
 
-## ![README1](../../resources/6-SDKDevelopment/6.1/python-README1.png)
+![README1](../../resources/6-SDKDevelopment/6.1/python-README1.png)
 
 **Python** 由荷兰数学和计算机科学学会的 Guido van Rossum 于 20 世纪 90 年代初设计，是一种名为 ABC 的语言的替代品。
 

@@ -1,6 +1,6 @@
 ## What is Python?
 
-## ![README1](../../resources/6-SDKDevelopment/6.1/python-README1.png)
+![README1](../../resources/6-SDKDevelopment/6.1/python-README1.png)
 
 **Python**  was designed in the early 1990s by Guido van Rossum of the Netherlands Society for Mathematics and Computer Science as an alternative to a language called ABC.
 
