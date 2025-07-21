@@ -76,6 +76,7 @@
   - [7.1 myAGV+280Pi复合机器人](7-ExamplesRobotsUsing/280pi.md)
   - [7.2 myAGV+280M5复合机器人](7-ExamplesRobotsUsing/280m5.md)
   - [7.3 myAGV+280JN复合机器人](7-ExamplesRobotsUsing/280jn.md)
+  - [7.4 myAGV+270M5复合机器人手柄遥控](7-ExamplesRobotsUsing/270.md)
 
 - [8 相关资料下载](8-FilesDownload/README.md)
   - [8.1 Gitbook 下载](8-FilesDownload/8.1-GitbookDownload.md)
