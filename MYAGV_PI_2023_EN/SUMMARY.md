@@ -64,6 +64,7 @@
     - [7.1.2 Aruco code recognition and transportation scenarios](7-ExamplesRobotsUsing/7.1-myagvAnd280Pi/7.1.2-ArucoCodeVisualCase.md)
   - [7.2 myAGV+280M5 Composite Robot](7-ExamplesRobotsUsing/7.2-myagvAnd280M5.md)
   - [7.3 myAGV+280JN Composite Robot](7-ExamplesRobotsUsing/7.3-myagvAnd280JN.md)
+  - [7.4 myAGV+270M5 composite robot handle remote control](MYAGV_JN_2023_EN/7-ExamplesRobotsUsing/270_en.md)
 * [8 Documents Download](8-FilesDownload/README.md)
   * [8.1 Gitbook Download](8-FilesDownload/8.1-GitbookDownload.md)
   * [8.2 Product Drawings](8-FilesDownload/8.2-productBrochure.md)
