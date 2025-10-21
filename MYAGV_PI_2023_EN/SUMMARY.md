@@ -30,7 +30,7 @@
 
 * [5 Basic Application](5-BasicApplication/README.md)
   * [5.1 System instruction manual](5-BasicApplication/5.1-SystemInstructionManual.md)
-  * [5.2 ApplicationUse](5-BasicApplication/README.md#chapter-summary)
+  * [5.2 ApplicationUse]()
     * [5.2.1 myblockly](5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/README.md)
       - [1 Myblockly first use](5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/1-myBlocklyFirstUse.md)
       - [2 Install and uninstall](5-BasicApplication/5.2-ApplicationUse/5.2.1-myblockly/2-install_uninstall.md)
@@ -44,7 +44,7 @@
       - [4 Other function](5-BasicApplication/5.2-ApplicationUse/5.2.2-mystudio/4-other_function.md)
     * [5.2.3 AGV_UI](5-BasicApplication/5.2-ApplicationUse/5.2.3-myagv_UI/user_manual.md)
 
-  * [5.3 FirmwareUse](5-BasicApplication/README.md#chapter-summary)
+  * [5.3 FirmwareUse]()
     * [5.3.1 firmware update info](5-BasicApplication/5.3-FirmwareUse/5.3.1-FirmwareUpdateInfo.md)
     * [5.3.2 how to burn firmware](5-BasicApplication/5.3-FirmwareUse/5.3.2-HowToBurnFirmware.md)
 * [6 SDK Development](6-SDKDevelopment/README.md)

@@ -2,18 +2,10 @@
 # myAgv software user manual
 
 ## Running Programme
-1、Clone the github's repository：` https://github.com/elephantrobotics/AGV_UI.git`  
-2、Switch to the branch **Visualize_OP** : `git checkout Visualize_OP`  
-3、Install all dependences：
-`
-pip install -r requirements.txt 
-`  
-4、Running the command in the termial：
-`
-python operations.py  
-`
 
-![Softeware Page](../../../resources/5-BasicApplication/5.2/5.2.3/software_page_en.png "Software Page")
+![Softeware Page](../../../resources/5-BasicApplication/5.2/5.2.3/desktop.jpg)
+
+![Softeware Page](../../../resources/5-BasicApplication/5.2/5.2.3/desktop2.png)
 
 ## 1、 Language Switch
 

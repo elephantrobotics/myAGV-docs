@@ -2,16 +2,9 @@
 
 ## 运行程序
 
-1. 克隆 github 的版本库：  
-   `https://github.com/elephantrobotics/AGV_UI.git`
-2. 切换到分支 **Visualize_OP** :  
-   `git checkout Visualize_OP`
-3. 安装所有依赖项：  
-   `pip install -r requirements.txt`
-4. 在终端中执行命令：  
-   `python operations.py`
+![Softeware Page](../../../resources/5-BasicApplication/5.2/5.2.3/desktop.jpg)
 
-![Softeware Page](../../../resources/5-BasicApplication/5.2/5.2.3/software_page_en.png "Software Page")
+![Softeware Page](../../../resources/5-BasicApplication/5.2/5.2.3/desktop2.png)
 
 ## 1. 切换语言
 
