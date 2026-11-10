@@ -21,6 +21,8 @@
     "theme-fexa":{
       "search-placeholder":"输入关键字搜索", 
       "logo":"/photo/logo.png",
+      "logoLink":"https://www.elephantrobotics.com/myagv2023-jn-cn/",
+      "logoLinkTitle":"返回 myAGV JN 2023 产品页",
       "favicon": "./favicon.ico"
     },
     "password": {
